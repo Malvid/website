@@ -1,12 +1,20 @@
 // Colors ------------------------------------------------------ //
 $colors: (
-	'white': #ffffff,
-	'black': #000000,
-	'light': #dddddd,
-	'dark': #111111,
-	'green': #6fae43,
-	'text': #333333
+	'white': rgba(255, 255, 255, 1),
+	'black': rgba(0, 0, 0, .8),
+	'light': rgba(255, 255, 255, .8),
+	'dark': rgba(0, 0, 0, .6),
+	'blue': #2D84FC
 );
+
+$gradients: (
+	'blue': linear-gradient(45deg, darken(color('blue'), 10%), color('blue')),
+	'shine': linear-gradient(45deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, .1))
+);
+
+// Shadows ----------------------------------------------------- //
+$shadowBig: 0 6px 12px rgba(0, 0, 0, .15);
+$shadowSmall: 0 2px 8px rgba(0, 0, 0, .3);
 
 // Sizes ------------------------------------------------------- //
 $gutter: 1.8rem;

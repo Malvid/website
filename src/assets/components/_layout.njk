@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="{{ lang }}">
+	<head>
+
+		<title>{{ title }} | {{ site }}</title>
+
+		<meta charset="utf-8">
+		<meta name="description" content="{{ description }}">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<link rel="shortcut icon" href="{{ favicon }}" type="image/x-icon">
+
+		<!-- Twitter Cards -->
+		<!-- <meta name="twitter:card" content="summary_large_image"> -->
+		<!-- <meta name="twitter:site" content="@{{ twitter }}"> -->
+
+		<!-- Open Graph Protocol -->
+		<!-- <meta property="og:type" content="website"> -->
+
+		<!-- Open Graph protocol and Twitter Cards -->
+		<!-- <meta property="og:title" content="{{ title }} | {{ site }}"> -->
+		<!-- <meta property="og:description" content="{{ description }}"> -->
+		<!-- <meta property="og:image" content="{{ url }}{{ opengraph }}"> -->
+
+		<!-- CSS -->
+		{% for style in styles %}
+			<link rel="stylesheet" href="{{ root }}{{ style }}">
+		{% endfor %}
+
+		<!-- JS -->
+		{% for script in scripts %}
+			<script defer src="{{ root }}{{ script }}"></script>
+		{% endfor %}
+
+	</head>
+	<body>
+
+		{% block body %}{% endblock %}
+
+	</body>
+</html>

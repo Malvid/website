@@ -4,16 +4,14 @@
 @import 'mixins';
 
 // Modules ----------------------------------------------------- //
-@import '../../node_modules/normalize.css/normalize';
-@import '../../node_modules/basicgrid/src/styles/main';
+@import '../../../node_modules/normalize.css/normalize';
+@import '../../../node_modules/basicgrid/src/styles/main';
 
 // Styles ------------------------------------------------------ //
 @import 'html';
 @import 'body';
 @import 'typography';
 @import 'img';
-@import 'table';
-@import 'hr';
 @import 'spacing';
 @import 'bg';
 @import 'c';

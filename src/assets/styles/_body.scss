@@ -1,6 +1,7 @@
 body {
 
-	color: color('text');
+	background: rgba(color('blue'), .04);
+	color: color('dark');
 
 	// Set the min-height to 100% to fill the whole page with a
 	// gradient when the body has a background gradient.

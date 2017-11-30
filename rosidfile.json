@@ -1,32 +1,43 @@
 [
   {
     "name": "JS",
-    "path": "scripts/**/[^_]*.js",
+    "path": "assets/scripts/**/[^_]*.js",
     "handler": "rosid-handler-js"
   },
   {
     "name": "SASS",
-    "path": "styles/**/[^_]*.{css,scss}*",
+    "path": "assets/styles/**/[^_]*.{css,scss}*",
     "handler": "rosid-handler-sass",
     "opts": {
       "in": ".scss"
     }
   },
   {
-    "name": "NJK Component",
-    "path": "components/[^_]*/[^_]*.{html,njk}*",
+    "name": "NJK Page",
+    "path": "[^_]*.{html,njk}*",
     "handler": "rosid-handler-njk",
     "opts": {
-      "prepend": "{% extends \"../_layout.njk\" %}{% block body %}",
+      "prepend": "{% extends \"./assets/components/_layout.njk\" %}{% block body %}",
       "append": "{% endblock %}",
-      "src": "src/components/",
+      "src": "src/",
       "data": "data.json"
     }
   },
   {
-    "name": "UI",
-    "path": "index.{html,html.json}",
-    "handler": "rosid-handler-components",
+    "name": "NJK Component",
+    "path": "assets/components/[^_]*/[^_]*.{html,njk}*",
+    "handler": "rosid-handler-njk",
+    "opts": {
+      "prepend": "{% extends \"../_layout.njk\" %}{% block body %}",
+      "append": "{% endblock %}",
+      "src": "src/",
+      "data": "data.json"
+    }
+  },
+  {
+    "name": "Malvid",
+    "path": "ui/index.{html,html.json}",
+    "handler": "rosid-handler-malvid",
     "opts": {
       "src": "src/"
     }
