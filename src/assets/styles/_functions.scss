@@ -15,8 +15,8 @@
 
 @function gradient($key) {
 
-	@if type-of($key)=='gradient' {
-		@error 'Never user colors like `#{ $key }` as map keys';
+	@if type-of($key)=='color' {
+		@return linear-gradient($key, $key);
 	}
 
 	@if map-has-key($gradients, $key) {

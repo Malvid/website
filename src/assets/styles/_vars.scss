@@ -9,7 +9,7 @@ $colors: (
 
 $gradients: (
 	'blue': linear-gradient(45deg, darken(color('blue'), 10%), color('blue')),
-	'shine': linear-gradient(45deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, .1))
+	'shine': linear-gradient(135deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, .1))
 );
 
 // Shadows ----------------------------------------------------- //
@@ -34,10 +34,10 @@ $duration: .3s;
 $timing: cubic-bezier(.51, .92, .24, 1);
 
 // Typography -------------------------------------------------- //
-$fontFamily: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$fontFamily: 'Open Sans', sans-serif;
 
 // Font -------------------------------------------------------- //
-$fontStack: normal 400 100%/1.6 $fontFamily;
+$fontStack: normal 400 112.5%/1.7 $fontFamily;
 
 // basicGrid --------------------------------------------------- //
 $basicGrid__width  : $maxWidth;

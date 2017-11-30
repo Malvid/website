@@ -1,4 +1,5 @@
 {
-  "color": "green",
+  "color": "dark",
+  "arrow": true,
   "label": "Button"
 }
