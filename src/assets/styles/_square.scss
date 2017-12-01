@@ -1,5 +1,16 @@
+@keyframes square__fadeIn {
+	0% {
+		opacity: 0;
+		transform: translateX(40px) translateY(40px);
+	}
+	60% {
+		transform: translateX(-4px) translateY(-4px);
+	}
+}
+
 .square {
 
 	background: gradient('shine'), gradient(color('dark'));
+	animation: square__fadeIn 2s ease-out;
 
 }

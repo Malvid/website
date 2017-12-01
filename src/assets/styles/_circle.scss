@@ -1,8 +1,19 @@
+@keyframes circle__fadeIn {
+	0% {
+		opacity: 0;
+		transform: translateX(-40px) translateY(-40px);
+	}
+	60% {
+		transform: translateX(4px) translateY(4px);
+	}
+}
+
 .circle {
 
 	background: gradient('shine'), gradient(color('white'));
 	border-radius: 100%;
 	box-shadow: $shadowBig;
 	opacity: .92;
+	animation: circle__fadeIn 2s ease-out;
 
 }
