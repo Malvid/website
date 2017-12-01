@@ -4,12 +4,10 @@
 	align-items: center;
 
 	&__icon {
-		$size: 24px;
+		$size: 28px;
 
 		width: $size;
 		height: $size;
-		border-radius: 100%;
-		background: color('white');
 	}
 
 	&__name {

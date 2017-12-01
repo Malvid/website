@@ -1,23 +1,25 @@
 {
-  "header": {
-    "logo": {
-      "header": "Malvid"
-    }
-  },
-  "section_hero": {
-    "header": "Developing components.<br><b>The right way.</b>",
-    "subheader": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.",
-    "buttons": [
-      {
-        "color": "light",
-        "arrow": true,
-        "label": "Live Demo"
-      },
-      {
-        "color": "dark",
-        "arrow": false,
-        "label": "Documentation"
+  "content": {
+    "header": {
+      "logo": {
+        "header": "Malvid"
       }
-    ]
+    },
+    "section_hero": {
+      "header": "Developing components.<br><b>The right way.</b>",
+      "subheader": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.",
+      "buttons": [
+        {
+          "color": "light",
+          "arrow": true,
+          "label": "Live Demo"
+        },
+        {
+          "color": "dark",
+          "arrow": false,
+          "label": "Documentation"
+        }
+      ]
+    }
   }
 }

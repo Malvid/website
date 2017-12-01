@@ -1,10 +1,10 @@
 @keyframes square__fadeIn {
 	0% {
 		opacity: 0;
-		transform: translateX(40px) translateY(40px);
+		transform: translateX(15%) translateY(15%);
 	}
 	60% {
-		transform: translateX(-4px) translateY(-4px);
+		transform: translateX(-2%) translateY(-2%);
 	}
 }
 
