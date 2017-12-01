@@ -1,0 +1,19 @@
+.logo {
+
+	display: flex;
+	align-items: center;
+
+	&__icon {
+		$size: 24px;
+
+		width: $size;
+		height: $size;
+		border-radius: 100%;
+		background: color('white');
+	}
+
+	&__name {
+		margin-left: $gutter/3;
+	}
+
+}
