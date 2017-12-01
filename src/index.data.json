@@ -7,7 +7,7 @@
     },
     "section_hero": {
       "header": "Developing components.<br><b>The right way.</b>",
-      "subheader": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.",
+      "subheader": "",
       "buttons": [
         {
           "color": "light",
@@ -20,6 +20,18 @@
           "label": "Documentation"
         }
       ]
+    },
+    "section_explanation": {
+      "header": "A UI for your components.<br><b>Generated.</b>",
+      "subheader": "",
+      "bodytext": "",
+      "browser": {
+        "url": "http://localhost:3000/",
+        "figure": {
+          "src": "/assets/images/browser.png",
+          "alternative": "Screenshot of Malvid"
+        }
+      }
     }
   }
 }
