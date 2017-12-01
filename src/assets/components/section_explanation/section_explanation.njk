@@ -1,0 +1,21 @@
+<div class="section section--enclosed section--overflow">
+
+	<div class="row">
+		<div class="column medium-6 large-5">
+
+			<h1 class="h1 c-black">{{ header | safe }}</h1>
+			<p class="h3">{{ subheader }}</p>
+
+			<div class="spacing-huge"></div>
+
+			<p class="c-blue">{{ bodytext }}</p>
+
+		</div>
+		<div class="column medium-6 large-offset-1 large-6">
+
+			{% inject "assets/components/browser/browser.njk", browser %}
+
+		</div>
+	</div>
+
+</div>

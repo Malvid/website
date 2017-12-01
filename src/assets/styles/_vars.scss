@@ -4,7 +4,8 @@ $colors: (
 	'black': rgba(0, 0, 0, .8),
 	'light': rgba(255, 255, 255, .8),
 	'dark': rgba(0, 0, 0, .6),
-	'blue': #2D84FC
+	'grey': #f5f5f5,
+	'blue': #2d84fc
 );
 
 $gradients: (
@@ -14,7 +15,7 @@ $gradients: (
 
 // Shadows ----------------------------------------------------- //
 $shadowBig: 0 6px 12px rgba(0, 0, 0, .15);
-$shadowSmall: 0 2px 8px rgba(0, 0, 0, .3);
+$shadowSmall: 0 2px 8px rgba(0, 0, 0, .25);
 
 // Sizes ------------------------------------------------------- //
 $gutter: 1.8rem;
