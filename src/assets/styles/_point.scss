@@ -52,32 +52,33 @@
 		top: 50%;
 		left: 50%;
 		border-radius: inherit;
+		animation: 2.4s ease-out infinite;
+		animation-delay: var(--delay, 0);
+		animation-fill-mode: both;
 	}
 
 	&::before {
 		$size: 48px;
 
-		margin: $size/-2 0 0 $size/-2;
+		top: calc(50% - #{ $size/2 });
+		left: calc(50% - #{ $size/2 });
 		width: $size;
 		height: $size;
 		border: 1px solid color('blue');
 		z-index: -1;
-		animation: point__outer 2.4s ease-out infinite;
-		animation-fill-mode: both;
-		animation-delay: var(--delay, 0);
+		animation-name: point__outer;
 	}
 
 	&::after {
 		$size: 38px;
 
-		margin: $size/-2 0 0 $size/-2;
+		top: calc(50% - #{ $size/2 });
+		left: calc(50% - #{ $size/2 });
 		width: $size;
 		height: $size;
 		background: color('blue');
 		z-index: -1;
-		animation: point__inner 2.4s ease-out infinite;
-		animation-fill-mode: both;
-		animation-delay: var(--delay, 0);
+		animation-name: point__inner;
 	}
 
 }
