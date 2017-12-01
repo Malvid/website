@@ -5,7 +5,6 @@
 	flex-direction: column;
 	background: color('grey');
 	box-shadow: $shadowSmall;
-	overflow: hidden;
 	border-radius: 6px;
 
 	&__toolbar {
@@ -47,6 +46,10 @@
 		padding: 6px;
 		background: rgba(0, 0, 0, .05);
 		font-size: 12px;
+	}
+
+	&__content {
+		position: relative;
 	}
 
 }

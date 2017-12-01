@@ -1,0 +1,83 @@
+@keyframes point__outer {
+	0% {
+		opacity: 0;
+		transform: scale(0);
+	}
+	60% {
+		opacity: 1;
+	}
+	85% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 0;
+	}
+}
+
+@keyframes point__inner {
+	0% {
+		opacity: 0;
+		transform: scale(0);
+	}
+	10% {
+		opacity: 0;
+		transform: scale(0);
+	}
+	70% {
+		opacity: .6;
+	}
+	100% {
+		opacity: 0;
+	}
+}
+
+.point {
+
+	$size: 18px;
+
+	position: absolute;
+	top: var(--y);
+	left: var(--x);
+	width: $size;
+	height: $size;
+	margin: $size/-2 0 0 $size/-2;
+	background: gradient('blue');
+	border-radius: 100%;
+	z-index: 1;
+
+	&::before,
+	&::after {
+		content: '';
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		border-radius: inherit;
+	}
+
+	&::before {
+		$size: 48px;
+
+		margin: $size/-2 0 0 $size/-2;
+		width: $size;
+		height: $size;
+		border: 1px solid color('blue');
+		z-index: -1;
+		animation: point__outer 2.4s ease-out infinite;
+		animation-fill-mode: both;
+		animation-delay: var(--delay, 0);
+	}
+
+	&::after {
+		$size: 38px;
+
+		margin: $size/-2 0 0 $size/-2;
+		width: $size;
+		height: $size;
+		background: color('blue');
+		z-index: -1;
+		animation: point__inner 2.4s ease-out infinite;
+		animation-fill-mode: both;
+		animation-delay: var(--delay, 0);
+	}
+
+}
