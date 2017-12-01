@@ -9,19 +9,20 @@
 	text-rendering: optimizeLegibility;
 }
 
-h1,
 .h1 {
+	margin-bottom: $gutter/1.5;
 	font-size: 2em;
+	line-height: 1.4;
 }
 
-h2,
 .h2 {
 	font-size: 1.5em;
+	line-height: 1.5;
 }
 
-h3,
 .h3 {
 	font-size: 1.17em;
+	line-height: 1.6;
 }
 
 // Text -------------------------------------------------------------- //

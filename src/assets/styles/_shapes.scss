@@ -1,0 +1,25 @@
+.shapes {
+
+	$circleSize: 72%;
+
+	position: relative;
+	width: 100%;
+	padding-bottom: 100%;
+
+	.circle {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: $circleSize;
+		height: $circleSize;
+	}
+
+	.square {
+		position: absolute;
+		top: $circleSize/2;
+		left: $circleSize/2;
+		right: 0;
+		bottom: 0;
+	}
+
+}

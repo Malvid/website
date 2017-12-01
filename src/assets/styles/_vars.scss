@@ -8,7 +8,7 @@ $colors: (
 );
 
 $gradients: (
-	'blue': linear-gradient(45deg, darken(color('blue'), 10%), color('blue')),
+	'blue': linear-gradient(45deg, darken(color('blue'), 25%), color('blue')),
 	'shine': linear-gradient(135deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, .1))
 );
 
@@ -18,7 +18,7 @@ $shadowSmall: 0 2px 8px rgba(0, 0, 0, .3);
 
 // Sizes ------------------------------------------------------- //
 $gutter: 1.8rem;
-$maxWidth: 1200px;
+$maxWidth: 1300px;
 
 // Breakpoints ------------------------------------------------- //
 $bpXXS: 480px;
@@ -41,4 +41,5 @@ $fontStack: normal 400 112.5%/1.7 $fontFamily;
 
 // basicGrid --------------------------------------------------- //
 $basicGrid__width  : $maxWidth;
+$basicGrid__outer  : $gutter/2;
 $basicGrid__gutter : $gutter;

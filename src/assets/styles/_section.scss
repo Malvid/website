@@ -1,0 +1,15 @@
+.section {
+
+	padding: $gutter*4 0 $gutter*3.5;
+
+	&--full {
+		display: flex;
+		align-items: center;
+		min-height: 100vh;
+	}
+
+	&--enclosed {
+		border-bottom: 1px solid rgba(0, 0, 0, .1);
+	}
+
+}

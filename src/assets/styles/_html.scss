@@ -9,6 +9,8 @@ html {
 	font: $fontStack;
 
 	@media (max-width: $bpS) {
+		--basicGrid-outer: 0;
+
 		font-size: 100%;
 	}
 
