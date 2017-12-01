@@ -1,5 +1,9 @@
 .hero {
 
+	display: flex;
+	align-items: center;
+	min-height: 100vh;
+	padding-top: calc(#{ $sectionPadding } + #{ $headerHeight });
 	background: gradient('blue');
 
 }
