@@ -41,12 +41,17 @@
 	width: $size;
 	height: $size;
 	margin: $size/-2 0 0 $size/-2;
-	background: gradient('blue');
-	border-radius: 100%;
 	z-index: 1;
 
-	&::before,
-	&::after {
+	&__inner {
+		width: 100%;
+		height: 100%;
+		background: gradient('blue');
+		border-radius: 100%;
+	}
+
+	&__inner::before,
+	&__inner::after {
 		content: '';
 		position: absolute;
 		top: 50%;
@@ -57,7 +62,7 @@
 		animation-fill-mode: both;
 	}
 
-	&::before {
+	&__inner::before {
 		$size: 48px;
 
 		top: calc(50% - #{ $size/2 });
@@ -69,7 +74,7 @@
 		animation-name: point__outer;
 	}
 
-	&::after {
+	&__inner::after {
 		$size: 38px;
 
 		top: calc(50% - #{ $size/2 });
