@@ -13,7 +13,8 @@
   "license": "MIT",
   "scripts": {
     "start": "rosid serve src/ -o -s '/ui/index.html'",
-    "compile": "rosid compile src/ dist/ -i '**/_*' -i '**/*.{data,config}.{js,json}'"
+    "compile": "rosid compile src/ dist/ -i '**/_*' -i '**/*.{data,config}.{js,json}'",
+    "preview": "npm run compile && rsync --recursive --delete --checksum --whole-file --verbose --progress --human-readable dist/ frontend@preview.comwrap.rocks:/var/www/preview/malvid/"
   },
   "dependencies": {
     "basicgrid": "^3.0.0",
