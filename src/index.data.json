@@ -7,7 +7,7 @@
     },
     "section_hero": {
       "header": "Developing components.<br><b>The right way.</b>",
-      "subheader": "",
+      "subheader": "Generate an interactive UI to develop, preview and document your components.",
       "buttons": [
         {
           "color": "light",
