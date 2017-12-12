@@ -14,7 +14,7 @@
 	user-select: none;
 	transition: transform $duration $timing;
 	border: 0;
-	border-radius: 4px;
+	border-radius: $radiusSmall;
 	vertical-align: middle;
 
 	&:hover {

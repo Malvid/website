@@ -1,0 +1,9 @@
+<div class="features">
+	{% for item in content %}
+		{% if item.type == "narrow" %}
+			{% inject "assets/components/feature_narrow/feature_narrow.njk", item.content %}
+		{% elseif item.type == "wide" %}
+			{% inject "assets/components/feature_wide/feature_wide.njk", item.content %}
+		{% endif %}
+	{% endfor %}
+</div>

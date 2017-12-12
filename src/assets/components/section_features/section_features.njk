@@ -1,0 +1,22 @@
+<div class="section section--enclosed section--overflow">
+
+	<div class="row">
+		<div class="column medium-6 large-5">
+
+			<h1 class="h1 c-black">{{ header | safe }}</h1>
+			<p class="h3">{{ subheader }}</p>
+
+			<div class="spacing-huge"></div>
+
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="column">
+
+			{% inject "assets/components/features/features.njk", features %}
+
+		</div>
+	</div>
+
+</div>

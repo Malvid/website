@@ -1,0 +1,13 @@
+.features {
+
+	display: grid;
+	grid-template-columns: repeat(var(--columns, 3), 1fr);
+	grid-column-gap: $gutter;
+	grid-row-gap: $gutter;
+	margin: 0 $featurePadding*-1;
+
+	@media (max-width: $bpS) {
+		--columns: 1;
+	}
+
+}

@@ -1,0 +1,22 @@
+<div class="feature feature--wide feature--{{ color }}">
+
+	<div class="row">
+		<div class="column medium-6">
+
+			{% inject "assets/components/icon/icon.njk", icon %}
+
+			<h2 class="c-{% if color == "light" %}black{% else %}white{% endif %}">{{ header }}</h2>
+
+			{{ bodytext | safe }}
+
+		</div>
+		<div class="column medium-6">
+
+			<div class="feature__browser">
+				{% inject "assets/components/browser/browser.njk", browser %}
+			</div>
+
+		</div>
+	</div>
+
+</div>

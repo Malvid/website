@@ -1,0 +1,9 @@
+<div class="feature feature--{{ color }}">
+
+	{% inject "assets/components/icon/icon.njk", icon %}
+
+	<h2 class="c-{% if color == "light" %}black{% else %}white{% endif %}">{{ header }}</h2>
+
+	{{ bodytext | safe }}
+
+</div>

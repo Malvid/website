@@ -1,0 +1,28 @@
+.feature {
+
+	padding: $gutter $featurePadding $gutter/2;
+	overflow: hidden;
+
+	&--wide {
+		grid-column: auto / span var(--columns, 2);
+
+		@media (max-width: $bpS) {
+			--columns: 1;
+		}
+	}
+
+	&--dark {
+		background: gradient('blue');
+		color: color('light');
+		border-radius: $radiusBig;
+	}
+
+	&__browser {
+		min-height: 350px;
+	}
+
+	&__browser .browser {
+		position: absolute;
+	}
+
+}

@@ -5,7 +5,7 @@
 	flex-direction: column;
 	background: color('grey');
 	box-shadow: $shadowSmall;
-	border-radius: 6px;
+	border-radius: $radiusBig;
 
 	&__toolbar {
 		display: grid;
@@ -42,7 +42,7 @@
 	}
 
 	&__address {
-		border-radius: 4px;
+		border-radius: $radiusSmall;
 		padding: 6px;
 		background: rgba(0, 0, 0, .05);
 		font-size: 12px;

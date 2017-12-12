@@ -1,0 +1,30 @@
+.icon {
+
+	$size: 90px;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0 0 $gutter/2;
+	width: $size;
+	height: $size;
+	border-radius: 100%;
+	box-shadow: $shadowSmall;
+
+	&--light {
+		background: gradient('shine'), gradient(color('white'));
+		color: color('blue');
+	}
+
+	&--dark {
+		background: gradient('blue');
+		color: color('white');
+	}
+
+	svg {
+		width: 60%;
+		height: 60%;
+		fill: currentcolor;
+	}
+
+}

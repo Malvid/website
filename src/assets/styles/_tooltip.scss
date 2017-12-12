@@ -8,10 +8,11 @@
 		padding: .8em 1.4em .95em;
 		width: 300px;
 		background: white;
+		color: color('dark');
 		font-size: .8em;
 		text-align: left;
 		box-shadow: $shadowSmall;
-		border-radius: 4px;
+		border-radius: $radiusSmall;
 		pointer-events: none;
 		transition: transform .3s var(--d, 0s) cubic-bezier(.51, .92, .24, 1.2), opacity .3s var(--d, 0s) ease;
 		will-change: transform;
