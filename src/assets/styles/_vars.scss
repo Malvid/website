@@ -37,10 +37,11 @@ $duration: .3s;
 $timing: cubic-bezier(.51, .92, .24, 1);
 
 // Typography -------------------------------------------------- //
-$fontFamily: 'Open Sans', sans-serif;
+$familyOpenSans: 'Open Sans', sans-serif;
+$familyNatoMono: 'Nato Mono', monospace;
 
 // Font -------------------------------------------------------- //
-$fontStack: normal 400 112.5%/1.7 $fontFamily;
+$fontStack: normal 400 112.5%/1.7 $familyOpenSans;
 
 // basicGrid --------------------------------------------------- //
 $basicGrid__width  : $maxWidth;

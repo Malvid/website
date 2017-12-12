@@ -24,7 +24,22 @@ module.exports = {
 		section_explanation: {
 			header: 'A UI for your components.<br><b>Generated.</b>',
 			subheader: 'Malvid analyses your folder structure and turns your files into a visual UI.',
-			bodytext: '',
+			bodytext: `
+				<p>
+					.<br>
+					├── accordion<br>
+					│   ├── accordion.data.json<br>
+					│   └── accordion.njk<br>
+					├── area<br>
+					│   ├── area.data.json<br>
+					│   └── area.njk<br>
+					├── audio<br>
+					│   ├── audio.config.json<br>
+					│   ├── audio.data.json<br>
+					│   ├── audio.md<br>
+					│   └── audio.njk
+				</p>
+			`,
 			browser: {
 				url: 'http://localhost:3000/',
 				figure: {
