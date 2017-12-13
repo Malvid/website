@@ -103,7 +103,7 @@ module.exports = {
 								icon: 'funnel'
 							},
 							header: '<s>Lost and</s> Found',
-							bodytext: '<p>Instantly find what you are looking for. Filter all your components in real time. No matter if you are searching for the name, view, data or notes.</p>',
+							bodytext: '<p>Instantly find what you are looking for. Filter all your components in real time. No matter if you are searching for a name, view, data or note.</p>',
 							browser: {
 								url: 'http://localhost:3000/',
 								figure: {
