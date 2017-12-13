@@ -21,7 +21,7 @@
 	}
 
 	&--dark {
-		background: gradient('main');
+		background: color('main');
 		color: color('light');
 		border-radius: $radiusBig;
 	}

@@ -10,12 +10,12 @@
 	box-shadow: $shadowSmall;
 
 	&--light {
-		background: gradient('shine'), gradient(color('white'));
+		background: color('white');
 		color: color('main');
 	}
 
 	&--dark {
-		background: gradient('main');
+		background: color('main');
 		color: color('white');
 	}
 
