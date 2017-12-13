@@ -13,6 +13,13 @@
 		}
 	}
 
+	&--light {
+		@media (max-width: $bpS) {
+			padding-top: 0;
+			padding-bottom: 0;
+		}
+	}
+
 	&--dark {
 		background: gradient('main');
 		color: color('light');
