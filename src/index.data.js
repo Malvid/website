@@ -44,6 +44,8 @@ module.exports = {
 				url: 'http://localhost:3000/',
 				figure: {
 					src: '/assets/images/browser.png',
+					width: 1300,
+					height: 688,
 					alternative: 'Screenshot of Malvid'
 				},
 				points: [
@@ -108,6 +110,8 @@ module.exports = {
 								url: 'http://localhost:3000/',
 								figure: {
 									src: '/assets/images/browser.png',
+									width: 1300,
+									height: 688,
 									alternative: 'Screenshot of Malvid'
 								}
 							}

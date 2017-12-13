@@ -10,7 +10,7 @@
 		</div>
 	</div>
 	<div class="browser__content">
-		<img class="spacing-zero" src="{{ figure.src }}" alt="{{ figure.alternative }}">
+		<img class="spacing-zero" src="{{ figure.src }}" width="{{ figure.width }}" height="{{ figure.height }}" alt="{{ figure.alternative }}">
 		{% for item in points %}
 			{% inject "assets/components/point/point.njk", item %}
 		{% endfor %}
