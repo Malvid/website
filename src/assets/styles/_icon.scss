@@ -22,8 +22,10 @@
 	}
 
 	svg {
-		width: 60%;
-		height: 60%;
+		$size: 50%;
+
+		width: $size;
+		height: $size;
 		fill: currentcolor;
 	}
 
