@@ -1,0 +1,5 @@
+<div class="links">
+	{% for item in content %}
+		{% inject "assets/components/link/link.njk", item %}
+	{% endfor %}
+</div>

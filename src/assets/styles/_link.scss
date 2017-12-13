@@ -1,0 +1,56 @@
+.link {
+
+	width: 100%;
+	background: white;
+	color: inherit;
+	text-decoration: none;
+	box-shadow: $shadowSmall;
+	border-radius: $radiusSmall;
+	overflow: hidden;
+	transition: transform, box-shadow;
+	transition-duration: $duration;
+	transition-timing-function: $timing;
+
+	&:hover {
+		transform: translateY(-4px);
+		box-shadow: $shadowBig;
+	}
+
+	&:active {
+		transition: none;
+		transform: translateY(-2px);
+		box-shadow: $shadowSmall;
+	}
+
+	&__hero {
+		position: relative;
+		height: 250px;
+		overflow: hidden;
+	}
+
+	&__icon {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		fill: currentcolor;
+		transform: translate(-50%, -50%);
+
+		&--foreground {
+			width: $iconSize;
+			height: $iconSize;
+		}
+
+		&--background {
+			$size: 400px;
+
+			width: $size;
+			height: $size;
+			opacity: .1;
+		}
+	}
+
+	&__content {
+		padding: $gutter*2 $featurePadding $gutter*1.5;
+	}
+
+}

@@ -1,0 +1,17 @@
+<a class="link" href="{{ href.value }}" {% if href.target %}target="{{ href.target }}"{% endif %}>
+
+	<div class="link__hero bg-main">
+
+		<svg class="link__icon link__icon--background c-white"><use xlink:href="#{{ icon }}"></use></svg>
+		<svg class="link__icon link__icon--foreground c-white"><use xlink:href="#{{ icon }}"></use></svg>
+
+	</div>
+
+	<div class="link__content">
+
+		<h3 class="h3 c-black">{{ header }}</h3>
+		<p>{{ bodytext }}</p>
+
+	</div>
+
+</a>

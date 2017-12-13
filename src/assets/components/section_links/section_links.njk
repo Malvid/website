@@ -1,0 +1,22 @@
+<div class="section section--enclosed section--overflow">
+
+	<div class="row">
+		<div class="column medium-6 large-5">
+
+			<h1 class="h1 c-black">{{ header | safe }}</h1>
+			{% if subheader %}<p class="h3">{{ subheader }}</p>{% endif %}
+
+			<div class="spacing-huge"></div>
+
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="column">
+
+			{% inject "assets/components/links/links.njk", links %}
+
+		</div>
+	</div>
+
+</div>
