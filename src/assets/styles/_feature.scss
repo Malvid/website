@@ -4,7 +4,9 @@
 	overflow: hidden;
 
 	&--wide {
-		grid-column: auto / span var(--columns, 2);
+		--columns: 2;
+
+		grid-column: auto / span var(--columns);
 
 		@media (max-width: $bpS) {
 			--columns: 1;

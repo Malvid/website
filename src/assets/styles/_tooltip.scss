@@ -3,6 +3,10 @@
 	cursor: help;
 
 	&::after {
+		--o: 0;
+		--ts: 0;
+		--d: 0s;
+
 		content: attr(data-tooltip);
 		position: absolute;
 		padding: .8em 1.4em .95em;
@@ -14,9 +18,9 @@
 		box-shadow: $shadowSmall;
 		border-radius: $radiusSmall;
 		pointer-events: none;
-		transition: transform .3s var(--d, 0s) cubic-bezier(.51, .92, .24, 1.2), opacity .3s var(--d, 0s) ease;
+		transition: transform .3s var(--d) cubic-bezier(.51, .92, .24, 1.2), opacity .3s var(--d) ease;
 		will-change: transform;
-		opacity: (--o, 0);
+		opacity: (--o);
 	}
 
 	&:hover::after {
@@ -28,28 +32,28 @@
 	&[data-tooltip-top]::after {
 		top: -40%;
 		left: 50%;
-		transform: translateX(-50%) translateY(-100%) scale(var(--ts, 0));
+		transform: translateX(-50%) translateY(-100%) scale(var(--ts));
 		transform-origin: 50% 100%;
 	}
 
 	&[data-tooltip-bottom]::after {
 		top: 140%;
 		left: 50%;
-		transform: translateX(-50%) translateY(0) scale(var(--ts, 0));
+		transform: translateX(-50%) translateY(0) scale(var(--ts));
 		transform-origin: 50% 0%;
 	}
 
 	&[data-tooltip-left]::after {
 		top: 50%;
 		left: -40%;
-		transform: translateX(-100%) translateY(-50%) scale(var(--ts, 0));
+		transform: translateX(-100%) translateY(-50%) scale(var(--ts));
 		transform-origin: 100% 50%;
 	}
 
 	&[data-tooltip-right]::after {
 		top: 50%;
 		left: 140%;
-		transform: translateX(0) translateY(-50%) scale(var(--ts, 0));
+		transform: translateX(0) translateY(-50%) scale(var(--ts));
 		transform-origin: 0% 50%;
 	}
 
