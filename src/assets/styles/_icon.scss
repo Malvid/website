@@ -1,13 +1,11 @@
 .icon {
 
-	$size: 90px;
-
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	margin: 0 0 $gutter/2;
-	width: $size;
-	height: $size;
+	width: $iconSize;
+	height: $iconSize;
 	border-radius: 100%;
 	box-shadow: $shadowSmall;
 
