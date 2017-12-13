@@ -4,7 +4,7 @@
 		<div class="column medium-6 large-5">
 
 			<h1 class="h1 c-white">{{ header | safe }}</h1>
-			<p class="h3 c-light">{{ subheader }}</p>
+			{% if subheader %}<p class="h3 c-light">{{ subheader }}</p>{% endif %}
 
 			<div class="spacing-huge"></div>
 
