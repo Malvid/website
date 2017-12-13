@@ -3,7 +3,7 @@
 	padding: $sectionPadding 0 calc(#{ $sectionPadding } - #{ $gutter/2 });
 
 	&--enclosed {
-		border-bottom: 1px solid rgba(color('blue'), .1);
+		border-bottom: 1px solid rgba(color('main'), .1);
 	}
 
 	&--overflow {

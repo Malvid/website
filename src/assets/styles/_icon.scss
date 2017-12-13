@@ -13,11 +13,11 @@
 
 	&--light {
 		background: gradient('shine'), gradient(color('white'));
-		color: color('blue');
+		color: color('main');
 	}
 
 	&--dark {
-		background: gradient('blue');
+		background: gradient('main');
 		color: color('white');
 	}
 

@@ -5,11 +5,11 @@ $colors: (
 	'light': rgba(255, 255, 255, .8),
 	'dark': rgba(0, 0, 0, .6),
 	'grey': #f5f5f5,
-	'blue': #2d84fc
+	'main': #2d84fc
 );
 
 $gradients: (
-	'blue': linear-gradient(45deg, darken(color('blue'), 25%), color('blue')),
+	'main': linear-gradient(45deg, darken(color('main'), 20%), color('main')),
 	'shine': linear-gradient(135deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, .1))
 );
 
