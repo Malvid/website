@@ -5,7 +5,9 @@
 
 			{% inject "assets/components/icon/icon.njk", icon %}
 
-			<h2 class="c-{% if color == "light" %}black{% else %}white{% endif %}">{{ header }}</h2>
+			<div class="spacing-medium"></div>
+
+			<h2 class="c-{% if color == "light" %}black{% else %}white{% endif %}">{{ header | safe }}</h2>
 
 			{{ bodytext | safe }}
 

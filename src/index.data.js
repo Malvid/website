@@ -76,6 +76,45 @@ module.exports = {
 					}
 				]
 			}
+		},
+		section_features: {
+			header: 'Many features,<br><b>but only what matters.</b>',
+			subheader: '',
+			features: {
+				content: [
+					{
+						type: 'narrow',
+						content: {
+							color: 'light',
+							icon: {
+								color: 'dark',
+								icon: 'asterisk'
+							},
+							header: 'Flexible',
+							bodytext: '<p>Malvid can be run from the command line or integrated into your project via its API. It works with any template engine and folder structure.</p>'
+						}
+					},
+					{
+						type: 'wide',
+						content: {
+							color: 'dark',
+							icon: {
+								color: 'light',
+								icon: 'funnel'
+							},
+							header: '<s>Lost and</s> Found',
+							bodytext: '<p>Instantly find what you are looking for. Filter all your components in real time. No matter if you are searching for the name, view, data or notes.</p>',
+							browser: {
+								url: 'http://localhost:3000/',
+								figure: {
+									src: '/assets/images/browser.png',
+									alternative: 'Screenshot of Malvid'
+								}
+							}
+						}
+					}
+				]
+			}
 		}
 	}
 }

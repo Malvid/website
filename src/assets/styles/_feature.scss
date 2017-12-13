@@ -1,6 +1,6 @@
 .feature {
 
-	padding: $gutter $featurePadding $gutter/2;
+	padding: $gutter*2 $featurePadding $gutter*1.5;
 	overflow: hidden;
 
 	&--wide {
