@@ -14,10 +14,8 @@
 	}
 
 	&--light {
-		@media (max-width: $bpS) {
-			padding-top: 0;
-			padding-bottom: 0;
-		}
+		background: color('white');
+		border-radius: $radiusBig;
 	}
 
 	&--dark {

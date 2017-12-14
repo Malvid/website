@@ -6,26 +6,29 @@
 	text-decoration: none;
 	box-shadow: $shadowSmall;
 	border-radius: $radiusSmall;
-	overflow: hidden;
 	transition: transform, box-shadow;
 	transition-duration: $duration;
 	transition-timing-function: $timing;
 
-	&:hover {
-		transform: translateY(-4px);
-		box-shadow: $shadowBig;
-	}
+	@media (any-hover: hover) {
+		&:hover {
+			transform: translateY(-4px);
+			box-shadow: $shadowBig;
+		}
 
-	&:active {
-		transition: none;
-		transform: translateY(-2px);
-		box-shadow: $shadowSmall;
+		&:active {
+			transition: none;
+			transform: translateY(-2px);
+			box-shadow: $shadowSmall;
+		}
 	}
 
 	&__hero {
 		position: relative;
 		height: 250px;
 		background: color('main');
+		border-top-left-radius: $radiusSmall;
+		border-top-right-radius: $radiusSmall;
 		overflow: hidden;
 	}
 
