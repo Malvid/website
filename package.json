@@ -19,6 +19,7 @@
   "dependencies": {
     "basicgrid": "^3.0.0",
     "normalize.css": "^7.0.0",
+    "parallax-js": "^3.1.0",
     "rosid": "^9.0.1",
     "rosid-handler-js": "^10.1.0",
     "rosid-handler-malvid": "^1.0.0",

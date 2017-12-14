@@ -7,18 +7,21 @@
 	padding-bottom: 100%;
 	width: 100%;
 
+	.circle,
+	.square {
+		position: absolute !important;
+	}
+
 	.circle {
-		position: absolute;
 		top: 0;
 		left: 0;
-		width: $circleSize;
-		height: $circleSize;
+		right: 100% - $circleSize;
+		bottom: 100% - $circleSize;
 	}
 
 	.square {
-		position: absolute;
-		top: $circleSize/2;
-		left: $circleSize/2;
+		top: $circleSize/2 !important;
+		left: $circleSize/2 !important;
 		right: 0;
 		bottom: 0;
 	}
