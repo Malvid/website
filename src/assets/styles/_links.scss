@@ -6,6 +6,7 @@
 	grid-template-columns: repeat(var(--columns), 1fr);
 	grid-column-gap: $gutter;
 	grid-row-gap: $gutter;
+	margin: 0 $featurePadding*-1;
 
 	@media (max-width: $bpXS) {
 		--columns: 1;

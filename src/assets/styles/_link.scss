@@ -46,12 +46,12 @@
 
 			width: $size;
 			height: $size;
-			opacity: .1;
+			opacity: .05;
 		}
 	}
 
 	&__content {
-		padding: $gutter*2 $featurePadding $gutter*1.5;
+		padding: $gutter*1.5 $featurePadding $gutter*1;
 	}
 
 }
