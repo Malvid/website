@@ -1,7 +1,7 @@
 // Fonts -------------------------------------------------------------- //
 @include fontFace('Open Sans', '../fonts/opensans-regular', normal, 400);
 @include fontFace('Open Sans', '../fonts/opensans-semibold', normal, 600);
-@include fontFace('Nato Mono', '../fonts/natomono-regular', normal, 600);
+@include fontFace('Noto Mono', '../fonts/notomono-regular', normal, 600);
 
 // Headlines -------------------------------------------------------------- //
 @include headlines() {
