@@ -119,6 +119,38 @@ module.exports = {
 					}
 				]
 			}
+		},
+		section_links: {
+			header: '<b>Get started</b>',
+			subheader: 'Want to get started with Malvid? Grab the source and documentation from GitHub or play with our ready-to-rock boilerplate.',
+			links: {
+				content: [
+					{
+						href: {
+							value: '#'
+						},
+						icon: 'play',
+						header: 'Get started',
+						bodytext: 'This guide shows you how create your first components with Malvid.'
+					},
+					{
+						href: {
+							value: '#'
+						},
+						icon: 'document-text',
+						header: 'Documentation',
+						bodytext: 'Our documentation gives you a great example about the possibilities of malvid. It includes everything from the installation to the configuration.'
+					},
+					{
+						href: {
+							value: '#'
+						},
+						icon: 'code-download',
+						header: 'Boilerplate',
+						bodytext: 'A base for all your everyday web-projects: A HTML5 Boilerplate built upon Malvid and Rosid. JS (with Babel), SASS and Nunjucks can be used right out of the box.'
+					}
+				]
+			}
 		}
 	}
 }
