@@ -8,10 +8,12 @@
 	grid-row-gap: $gutter;
 	margin: 0 $featurePadding*-1;
 
+	@media (max-width: $maxWidth) {
+		margin: 0;
+	}
+
 	@media (max-width: $bpS) {
 		--columns: 1;
-
-		margin: 0;
 	}
 
 }
