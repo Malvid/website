@@ -14,7 +14,7 @@
 	}
 
 	&--light {
-		background: color('white');
+		background: rgba(color('main'), .08);
 		border-radius: $radiusBig;
 	}
 
