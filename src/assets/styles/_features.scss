@@ -14,6 +14,10 @@
 	}
 
 	@media (max-width: $bpS) {
+		--columns: 2;
+	}
+
+	@media (max-width: $bpXS) {
 		--columns: 1;
 	}
 
