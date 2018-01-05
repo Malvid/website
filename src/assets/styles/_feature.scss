@@ -6,7 +6,7 @@
 	&--wide {
 		--columns: 2;
 
-		grid-column: auto / span var(--columns);
+		grid-column: span var(--columns);
 
 		@media (max-width: $bpS) {
 			--columns: 1;
