@@ -194,6 +194,24 @@ module.exports = {
 					}
 				]
 			}
+		},
+		section_footer: {
+			id: 'footer',
+			content: [
+				{
+					label: 'Imprint',
+					href: {
+						value: 'https://www.comwrap.com/impressum/'
+					}
+				},
+				{
+					label: 'Privacy Policy',
+					href: {
+						value: 'https://www.comwrap.com/datenschutz/'
+					}
+				}
+			],
+			copyright: '©2017 comwrap GmbH'
 		}
 	}
 }
