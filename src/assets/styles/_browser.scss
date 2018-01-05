@@ -4,7 +4,7 @@
 	width: max-content;
 	flex-direction: column;
 	background: color('grey');
-	box-shadow: $shadowSmall;
+	box-shadow: $shadowSmall, 0 0 0 1px rgba(0, 0, 0, .04);
 	border-radius: $radiusBig;
 
 	&__toolbar {
