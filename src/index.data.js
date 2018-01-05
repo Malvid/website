@@ -116,6 +116,42 @@ module.exports = {
 								}
 							}
 						}
+					},
+					{
+						type: 'narrow',
+						content: {
+							color: 'light',
+							icon: {
+								color: 'dark',
+								icon: 'asterisk'
+							},
+							header: 'Flexible',
+							bodytext: '<p>Malvid can be run from the command line or integrated into your project via its API. It works with any template engine and folder structure.</p>'
+						}
+					},
+					{
+						type: 'narrow',
+						content: {
+							color: 'light',
+							icon: {
+								color: 'dark',
+								icon: 'asterisk'
+							},
+							header: 'Flexible',
+							bodytext: '<p>Malvid can be run from the command line or integrated into your project via its API. It works with any template engine and folder structure.</p>'
+						}
+					},
+					{
+						type: 'narrow',
+						content: {
+							color: 'light',
+							icon: {
+								color: 'dark',
+								icon: 'asterisk'
+							},
+							header: 'Flexible',
+							bodytext: '<p>Malvid can be run from the command line or integrated into your project via its API. It works with any template engine and folder structure.</p>'
+						}
 					}
 				]
 			}
