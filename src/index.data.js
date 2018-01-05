@@ -208,7 +208,7 @@ module.exports = {
 					}
 				}
 			],
-			copyright: '©2017 comwrap GmbH'
+			copyright: '©2018 comwrap GmbH'
 		}
 	}
 }
