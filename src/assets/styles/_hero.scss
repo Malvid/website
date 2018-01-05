@@ -1,5 +1,17 @@
 .hero {
 
+	@keyframes hero__move {
+		0% {
+			transform: translateY(-4px);
+		}
+		50% {
+			transform: translateY(4px);
+		}
+		100% {
+			transform: translateY(-4px);
+		}
+	}
+
 	$flapWidth: 300px;
 	$flapHeight: 50px;
 
@@ -36,6 +48,7 @@
 		width: $size;
 		height: $size;
 		fill: color('main');
+		animation: hero__move 1.5s linear infinite;
 	}
 
 }
