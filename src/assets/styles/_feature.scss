@@ -1,6 +1,8 @@
 .feature {
 
 	padding: $gutter*2 $featurePadding $gutter*1.5;
+	background: color('white');
+	border-radius: $radiusBig;
 	overflow: hidden;
 
 	&--wide {
@@ -11,17 +13,6 @@
 		@media (max-width: $bpS) {
 			--columns: 1;
 		}
-	}
-
-	&--light {
-		background: rgba(color('main'), .08);
-		border-radius: $radiusBig;
-	}
-
-	&--dark {
-		background: color('main');
-		color: color('light');
-		border-radius: $radiusBig;
 	}
 
 	&__browser {

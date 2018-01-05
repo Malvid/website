@@ -6,18 +6,10 @@
 	margin: 0 0 $gutter/2;
 	width: $iconSize;
 	height: $iconSize;
-	border-radius: 100%;
+	background: color('main');
+	color: color('white');
 	box-shadow: $shadowSmall;
-
-	&--light {
-		background: color('white');
-		color: color('main');
-	}
-
-	&--dark {
-		background: color('main');
-		color: color('white');
-	}
+	border-radius: 100%;
 
 	svg {
 		$size: 50%;

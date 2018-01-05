@@ -93,9 +93,7 @@ module.exports = {
 					{
 						type: 'narrow',
 						content: {
-							color: 'light',
 							icon: {
-								color: 'dark',
 								icon: 'asterisk'
 							},
 							header: 'Flexible',
@@ -105,9 +103,7 @@ module.exports = {
 					{
 						type: 'wide',
 						content: {
-							color: 'dark',
 							icon: {
-								color: 'light',
 								icon: 'funnel'
 							},
 							header: '<s>Lost and</s> Found',
@@ -126,9 +122,7 @@ module.exports = {
 					{
 						type: 'narrow',
 						content: {
-							color: 'light',
 							icon: {
-								color: 'dark',
 								icon: 'asterisk'
 							},
 							header: 'Flexible',
@@ -138,9 +132,7 @@ module.exports = {
 					{
 						type: 'narrow',
 						content: {
-							color: 'light',
 							icon: {
-								color: 'dark',
 								icon: 'asterisk'
 							},
 							header: 'Flexible',
@@ -150,9 +142,7 @@ module.exports = {
 					{
 						type: 'narrow',
 						content: {
-							color: 'light',
 							icon: {
-								color: 'dark',
 								icon: 'asterisk'
 							},
 							header: 'Flexible',
