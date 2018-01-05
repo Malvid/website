@@ -10,7 +10,7 @@
 
 		grid-column: span var(--columns);
 
-		@media (max-width: $bpS) {
+		@media (max-width: $bpXS) {
 			--columns: 1;
 		}
 	}
