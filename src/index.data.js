@@ -13,12 +13,19 @@ module.exports = {
 				{
 					color: 'light',
 					arrow: true,
-					label: 'Live Demo'
+					label: 'Live Demo',
+					href: {
+						value: '/ui',
+						target: '_blank'
+					}
 				},
 				{
 					color: 'dark',
 					arrow: false,
-					label: 'Documentation'
+					label: 'Documentation',
+					href: {
+						value: 'https://github.com/comwrap/Malvid'
+					}
 				}
 			],
 			next: {
@@ -123,30 +130,30 @@ module.exports = {
 						type: 'narrow',
 						content: {
 							icon: {
-								icon: 'asterisk'
+								icon: 'flash'
 							},
-							header: 'Flexible',
-							bodytext: '<p>Malvid can be run from the command line or integrated into your project via its API. It works with any template engine and folder structure.</p>'
+							header: 'Fast',
+							bodytext: '<p>Malvid is written in Node.js and rendered via React to ensure a blazing fast generation and usage. Switch between components without a single reload.</p>'
 						}
 					},
 					{
 						type: 'narrow',
 						content: {
 							icon: {
-								icon: 'asterisk'
+								icon: 'tag'
 							},
-							header: 'Flexible',
-							bodytext: '<p>Malvid can be run from the command line or integrated into your project via its API. It works with any template engine and folder structure.</p>'
+							header: 'Statuses',
+							bodytext: `<p>Let your team know what's going on. Statuses help to understand the state of a component. Is this component ready? The status tells you.</p>`
 						}
 					},
 					{
 						type: 'narrow',
 						content: {
 							icon: {
-								icon: 'asterisk'
+								icon: 'upload'
 							},
-							header: 'Flexible',
-							bodytext: '<p>Malvid can be run from the command line or integrated into your project via its API. It works with any template engine and folder structure.</p>'
+							header: 'Deployable',
+							bodytext: '<p>Malvid exports static HTML, JS and CSS files. Host your UI anywhere simply by uploading the files to your server.</p>'
 						}
 					}
 				]
