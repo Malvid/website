@@ -6,6 +6,7 @@ module.exports = {
 			}
 		},
 		section_hero: {
+			id: 'hero',
 			header: 'Developing components.<br><b>The right way.</b>',
 			subheader: 'Generate an interactive UI to develop, preview and document your components.',
 			buttons: [
@@ -19,9 +20,13 @@ module.exports = {
 					arrow: false,
 					label: 'Documentation'
 				}
-			]
+			],
+			next: {
+				id: 'explanation'
+			}
 		},
 		section_explanation: {
+			id: 'explanation',
 			header: 'A UI for your components.<br><b>Generated.</b>',
 			subheader: 'Malvid analyses your folder structure and turns your files into a visual UI.',
 			bodytext: `
@@ -80,6 +85,7 @@ module.exports = {
 			}
 		},
 		section_features: {
+			id: 'features',
 			header: 'Many features,<br><b>but only what matters.</b>',
 			subheader: '',
 			features: {
@@ -157,6 +163,7 @@ module.exports = {
 			}
 		},
 		section_links: {
+			id: 'links',
 			header: '<b>Get started</b>',
 			subheader: 'Want to get started with Malvid? Grab the source and documentation from GitHub or play with our ready-to-rock boilerplate.',
 			links: {

@@ -1,6 +1,7 @@
 .section {
 
 	padding: $sectionPadding 0 calc(#{ $sectionPadding } - #{ $gutter/2 });
+	outline: none;
 
 	&--enclosed {
 		border-bottom: 1px solid rgba(color('main'), .15);
