@@ -3,6 +3,7 @@
 	--columns: 3;
 
 	display: grid;
+	grid-auto-flow: dense;
 	grid-template-columns: repeat(var(--columns), 1fr);
 	grid-column-gap: $gutter;
 	grid-row-gap: $gutter;
