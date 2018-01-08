@@ -9,17 +9,15 @@
 	transition-duration: $duration;
 	transition-timing-function: $timing;
 
-	@media (any-hover: hover) {
-		&:hover {
-			transform: translateY(-4px);
-			box-shadow: $shadowBig;
-		}
+	&:hover {
+		transform: translateY(-4px);
+		box-shadow: $shadowBig;
+	}
 
-		&:active {
-			transition: none;
-			transform: translateY(-2px);
-			box-shadow: $shadowSmall;
-		}
+	&:active {
+		transition: none;
+		transform: translateY(-2px);
+		box-shadow: $shadowSmall;
 	}
 
 	&__hero {
