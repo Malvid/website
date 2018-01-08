@@ -171,19 +171,19 @@ module.exports = {
 						},
 						icon: 'play',
 						header: 'Get started',
-						bodytext: 'This guide shows you how create your first components with Malvid.'
+						bodytext: 'This guide shows you how to setup Malvid and how to create your first component.'
 					},
 					{
 						href: {
-							value: '#'
+							value: 'https://github.com/comwrap/Malvid'
 						},
 						icon: 'document-text',
 						header: 'Documentation',
-						bodytext: 'Our documentation gives you a great example about the possibilities of malvid. It includes everything from the installation to the configuration.'
+						bodytext: 'Our documentation gives you a great example about the possibilities of Malvid. It includes everything from the installation to the configuration.'
 					},
 					{
 						href: {
-							value: '#'
+							value: 'https://github.com/electerious/Skeleton-Components'
 						},
 						icon: 'code-download',
 						header: 'Boilerplate',
