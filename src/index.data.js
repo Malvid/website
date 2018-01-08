@@ -1,4 +1,5 @@
 module.exports = {
+	title: 'Interactive UI for components',
 	content: {
 		header: {
 			logo: {
