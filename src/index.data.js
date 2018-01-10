@@ -172,7 +172,7 @@ module.exports = {
 						},
 						icon: 'play',
 						header: 'Get started',
-						bodytext: 'This guide shows you how to setup Malvid and how to create your first component.'
+						bodytext: '<p>This guide shows you how to setup Malvid and how to create your first component.</p>'
 					},
 					{
 						href: {
@@ -180,7 +180,7 @@ module.exports = {
 						},
 						icon: 'document-text',
 						header: 'Documentation',
-						bodytext: 'Our documentation gives you a great example about the possibilities of Malvid. It includes everything from the installation to the configuration.'
+						bodytext: '<p>Our documentation gives you a great example about the possibilities of Malvid. It includes everything from the installation to the configuration.</p>'
 					},
 					{
 						href: {
@@ -188,7 +188,7 @@ module.exports = {
 						},
 						icon: 'code-download',
 						header: 'Boilerplate',
-						bodytext: 'A base for all your everyday web-projects: A HTML5 Boilerplate built upon Malvid and Rosid. JS (with Babel), SASS and Nunjucks can be used right out of the box.'
+						bodytext: '<p>A base for all your everyday web-projects: A HTML5 Boilerplate built upon Malvid and Rosid. JS (with Babel), SASS and Nunjucks can be used right out of the box.</p>'
 					}
 				]
 			}

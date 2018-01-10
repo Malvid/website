@@ -4,5 +4,5 @@ module.exports = {
 	},
 	icon: 'leaf',
 	header: 'Lorem ipsum',
-	bodytext: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut.'
+	bodytext: '<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut.</p>'
 }
