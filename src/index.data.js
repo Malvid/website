@@ -9,7 +9,7 @@ module.exports = {
 		section_hero: {
 			id: 'hero',
 			header: 'Developing components.<br><b>The right way.</b>',
-			subheader: 'Generate an interactive UI to develop, preview and document your components.',
+			subheader: 'Generate an interactive UI to develop, preview and document web components.',
 			buttons: [
 				{
 					color: 'light',
@@ -50,7 +50,8 @@ module.exports = {
 					│   ├── audio.config.json<br>
 					│   ├── audio.data.json<br>
 					│   ├── audio.md<br>
-					│   └── audio.njk
+					│   └── audio.njk<br>
+					└── ...
 				</p>
 			`,
 			browser: {
