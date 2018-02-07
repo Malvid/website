@@ -4,7 +4,7 @@
 	transition: box-shadow $duration $timing;
 
 	&:hover {
-		box-shadow: inset 0 -1px currentcolor;
+		box-shadow: inset 0 -1px currentColor;
 	}
 
 }
