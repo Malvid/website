@@ -169,7 +169,7 @@ module.exports = {
 				content: [
 					{
 						href: {
-							value: '#'
+							value: 'https://github.com/comwrap/Malvid/blob/master/docs/Get%20started.md'
 						},
 						icon: 'play',
 						header: 'Get started',
