@@ -17,14 +17,14 @@
     "preview": "npm run compile && rsync --recursive --delete --checksum --whole-file --verbose --progress --human-readable dist/ frontend@preview.comwrap.rocks:/var/www/preview/malvid/"
   },
   "dependencies": {
-    "basicgrid": "^3.0.0",
+    "basicgrid": "^3.0.1",
     "jump.js": "^1.0.2",
-    "normalize.css": "^7.0.0",
+    "normalize.css": "^8.0.0",
     "parallax-js": "^3.1.0",
-    "rosid": "^9.0.1",
+    "rosid": "^9.0.3",
     "rosid-handler-js": "^10.1.0",
     "rosid-handler-malvid": "^1.0.0",
     "rosid-handler-njk": "^6.0.0",
-    "rosid-handler-sass": "^5.0.2"
+    "rosid-handler-sass": "^6.0.0"
   }
 }
