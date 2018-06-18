@@ -23,7 +23,7 @@
     "parallax-js": "^3.1.0",
     "rosid": "^9.0.3",
     "rosid-handler-js": "^10.1.0",
-    "rosid-handler-malvid": "^2.0.0",
+    "rosid-handler-malvid": "^3.0.0",
     "rosid-handler-njk": "^6.0.0",
     "rosid-handler-sass": "^6.0.0"
   }
