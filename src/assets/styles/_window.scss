@@ -1,4 +1,4 @@
-.browser {
+.window {
 
 	display: flex;
 	flex-direction: column;
@@ -11,8 +11,8 @@
 		display: grid;
 		grid-template-columns: minmax(max-content, 1fr) minmax(auto, 600px) 1fr;
 		grid-column-gap: $gutter;
-		align-items: center;
 		padding: 8px 20px;
+		height: 48px;
 		background: linear-gradient(#fafafa, #f4f4f4);
 		border-bottom: 1px solid rgba(0, 0, 0, .1);
 		border-radius: $radiusBig $radiusBig 0 0;
@@ -20,6 +20,7 @@
 
 	&__dots {
 		display: flex;
+		align-self: center;
 	}
 
 	&__dot {
@@ -44,10 +45,12 @@
 	}
 
 	&__address {
-		border-radius: $radiusSmall;
-		padding: 4px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
 		background: color('light');
 		border: 1px solid rgba(0, 0, 0, .1);
+		border-radius: $radiusSmall;
 		font-size: 12px;
 	}
 

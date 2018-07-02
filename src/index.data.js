@@ -52,7 +52,7 @@ module.exports = {
 					└── ...
 				</p>
 			`,
-			browser: {
+			window: {
 				url: 'http://localhost:3000/',
 				figure: {
 					src: '/assets/images/browser.png',
