@@ -1,5 +1,9 @@
 .spacing {
 
+	&-giant {
+		margin-bottom: $gutter*3;
+	}
+
 	&-huge {
 		margin-bottom: $gutter*2;
 	}

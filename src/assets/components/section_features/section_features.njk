@@ -1,6 +1,6 @@
 <div class="section section--enclosed section--overflow" id="{{ id }}">
 
-	<div class="row row--spacing">
+	<div class="row">
 		<div class="column medium-6 large-5">
 
 			{% inject "assets/components/head/head.njk", {
@@ -8,12 +8,13 @@
 				subheader: subheader
 			} %}
 
-			<div class="c-main f-notomono">{{ bodytext | safe }}</div>
-
 		</div>
-		<div class="column medium-6 large-offset-1 large-6">
+	</div>
 
-			{% inject "assets/components/browser/browser.njk", browser %}
+	<div class="row">
+		<div class="column">
+
+			{% inject "assets/components/features/features.njk", features %}
 
 		</div>
 	</div>

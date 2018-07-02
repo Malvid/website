@@ -91,6 +91,29 @@ module.exports = {
 				]
 			}
 		},
+		section_features: {
+			id: 'features',
+			header: 'Many features,<br><b>but only what matters.</b>',
+			features: {
+				content: [
+					{
+						icon: 'flash',
+						header: 'Faster to work with',
+						bodytext: 'Malvid is written in Node.js and rendered via React to ensure a blazing fast generation and usage. Switch between components without a single reload.'
+					},
+					{
+						icon: 'bug',
+						header: 'Easier to test',
+						bodytext: 'Malvid allows you to test and debug isolated components aswell as sections or whole webpages.'
+					},
+					{
+						icon: 'heart',
+						header: 'A workflow to love',
+						bodytext: 'Malvid allows you to test and debug isolated components aswell as sections or whole webpages.'
+					}
+				]
+			}
+		},
 		section_links: {
 			id: 'links',
 			header: '<b>Get started</b>',

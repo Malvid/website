@@ -1,0 +1,9 @@
+<div class="row">
+	{% for item in content %}
+		<div class="column medium-6 large-4">
+
+			{% inject "assets/components/feature/feature.njk", item %}
+
+		</div>
+	{% endfor %}
+</div>

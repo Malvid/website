@@ -1,0 +1,18 @@
+.feature {
+
+	&__icon {
+		$size: 68px;
+
+		width: $size;
+		height: $size;
+
+		&--bug {
+			padding-right: 15px;
+		}
+
+		&--heart {
+			padding-right: 25px;
+		}
+	}
+
+}
