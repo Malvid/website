@@ -8,7 +8,7 @@
 	}
 
 	&--enclosed {
-		border-bottom: 1px solid darken(color('background'), 5%);
+		border-bottom: 1px solid color('grey');
 	}
 
 	&--overflow {

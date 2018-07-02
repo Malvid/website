@@ -1,5 +1,9 @@
-<div class="links">
+<div class="row">
 	{% for item in content %}
-		{% inject "assets/components/link/link.njk", item %}
+		<div class="column medium-6 large-4 sameHeight">
+
+			{% inject "assets/components/link/link.njk", item %}
+
+		</div>
 	{% endfor %}
 </div>

@@ -8,10 +8,13 @@
 
 		width: $size;
 		height: $size;
+		background: color('main');
+		border-radius: 100%;
 	}
 
 	&__name {
 		margin-left: $gutter/3;
+		font-weight: 600;
 	}
 
 }

@@ -1,29 +1,28 @@
 // Colors ------------------------------------------------------ //
 $colors: (
 	'white': rgba(255, 255, 255, 1),
-	'black': rgba(0, 0, 0, .8),
+	'black': rgba(0, 0, 0, .85),
 	'light': rgba(255, 255, 255, .8),
 	'dark': rgba(0, 0, 0, .6),
-	'background': #f4f5f8,
-	'grey': #f5f5f5,
+	'grey': #eee,
+	'subtle': #f5f5f5,
 	'main': #2d84fc
 );
 
 $gradients: (
-	'main': linear-gradient(45deg, darken(color('main'), 20%), color('main')),
+	'subtle': linear-gradient(color('subtle'), color('white')),
 	'shine': linear-gradient(135deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, .1))
 );
 
 // Shadows ----------------------------------------------------- //
 $shadowBig: 0 6px 12px rgba(0, 0, 0, .15);
-$shadowSmall: 0 2px 6px rgba(0, 0, 0, .15);
+$shadowSmall: 0 2px 4px rgba(0, 0, 0, .15);
 
 // Sizes ------------------------------------------------------- //
 $gutter: 1.8rem;
 $maxWidth: 1350px;
 $headerHeight: 4em;
 $sectionPadding: $gutter*4;
-$featurePadding: $gutter;
 $radiusSmall: 4px;
 $radiusBig: 6px;
 $iconSize: 90px;
@@ -49,6 +48,6 @@ $familyNotoMono: 'Noto Mono', monospace;
 $fontStack: normal 400 112.5%/1.7 $familyOpenSans;
 
 // basicGrid --------------------------------------------------- //
-$basicGrid__width  : $maxWidth;
-$basicGrid__outer  : $gutter/2;
-$basicGrid__gutter : $gutter;
+$basicGrid__width: $maxWidth;
+$basicGrid__outer: $gutter/2;
+$basicGrid__gutter: $gutter;

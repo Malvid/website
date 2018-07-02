@@ -1,7 +1,6 @@
 // Basics ------------------------------------------------------ //
 @import 'functions';
 @import 'vars';
-@import 'mixins';
 
 // Modules ----------------------------------------------------- //
 @import '../../../node_modules/normalize.css/normalize';
@@ -17,23 +16,17 @@
 @import 'f';
 @import 'hidden';
 @import 'button';
+@import 'sameHeight';
 @import 'row';
 @import 'align';
 @import 'section';
 @import 'hero';
-@import 'circle';
-@import 'square';
-@import 'shapes';
 @import 'header';
 @import 'logo';
 @import 'nav';
 @import 'browser';
 @import 'point';
 @import 'tooltip';
-@import 'icon';
-@import 'features';
-@import 'feature';
-@import 'links';
 @import 'link';
 @import 'href';
 @import 'footer';

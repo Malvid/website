@@ -1,13 +1,19 @@
 .link {
 
+	display: block;
+	margin-bottom: $gutter;
 	width: 100%;
-	background: white;
+	background: color('white');
 	color: inherit;
 	box-shadow: $shadowSmall;
 	border-radius: $radiusSmall;
 	transition: transform, box-shadow;
 	transition-duration: $duration;
 	transition-timing-function: $timing;
+
+	@media (max-width: $bpXS) {
+		margin-bottom: $gutter/2;
+	}
 
 	&:hover {
 		transform: translateY(-4px);
@@ -51,7 +57,7 @@
 	}
 
 	&__content {
-		padding: $gutter*1.5 $featurePadding $gutter*1;
+		padding: $gutter $gutter $gutter/2;
 	}
 
 }

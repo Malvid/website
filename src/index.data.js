@@ -12,8 +12,7 @@ module.exports = {
 			subheader: 'Generate an interactive UI to develop, preview and document web components.',
 			buttons: [
 				{
-					color: 'light',
-					arrow: true,
+					color: 'main',
 					label: 'Live Demo',
 					href: {
 						value: '/ui',
@@ -22,7 +21,6 @@ module.exports = {
 				},
 				{
 					color: 'dark',
-					arrow: false,
 					label: 'Documentation',
 					href: {
 						value: 'https://github.com/comwrap/Malvid'
@@ -88,74 +86,6 @@ module.exports = {
 						tooltip: {
 							position: 'left',
 							bodytext: 'Your selected component at a glance: Template, data and notes.'
-						}
-					}
-				]
-			}
-		},
-		section_features: {
-			id: 'features',
-			header: 'Many features,<br><b>but only what matters.</b>',
-			subheader: '',
-			features: {
-				content: [
-					{
-						type: 'narrow',
-						content: {
-							icon: {
-								icon: 'asterisk'
-							},
-							header: 'Flexible',
-							bodytext: '<p>Malvid can be run from the command line or integrated into your project via its API. It works with any template engine and folder structure.</p>'
-						}
-					},
-					{
-						type: 'wide',
-						content: {
-							icon: {
-								icon: 'funnel'
-							},
-							header: '<s>Lost and</s> Found',
-							bodytext: '<p>Instantly find what you are looking for. Filter all your components in real time. No matter if you are searching for a name, view, data or note.</p>',
-							browser: {
-								url: 'http://localhost:3000/',
-								figure: {
-									src: '/assets/images/browser.png',
-									width: 1300,
-									height: 688,
-									alternative: 'Screenshot of Malvid'
-								}
-							}
-						}
-					},
-					{
-						type: 'narrow',
-						content: {
-							icon: {
-								icon: 'flash'
-							},
-							header: 'Fast',
-							bodytext: '<p>Malvid is written in Node.js and rendered via React to ensure a blazing fast generation and usage. Switch between components without a single reload.</p>'
-						}
-					},
-					{
-						type: 'narrow',
-						content: {
-							icon: {
-								icon: 'tag'
-							},
-							header: 'Statuses',
-							bodytext: `<p>Let your team know what's going on. Statuses help to understand the state of a component. Is this component ready? The status tells you.</p>`
-						}
-					},
-					{
-						type: 'narrow',
-						content: {
-							icon: {
-								icon: 'upload'
-							},
-							header: 'Deployable',
-							bodytext: '<p>Malvid exports static HTML, JS and CSS files. Host your UI anywhere simply by uploading the files to your server.</p>'
 						}
 					}
 				]

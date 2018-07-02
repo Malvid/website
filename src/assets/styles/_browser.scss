@@ -2,10 +2,9 @@
 
 	display: flex;
 	flex-direction: column;
-	margin: 0 0 $gutter/2;
+	margin-bottom: $gutter/2;
 	width: max-content;
-	background: color('grey');
-	box-shadow: $shadowSmall, 0 0 0 1px rgba(0, 0, 0, .04);
+	box-shadow: $shadowSmall, 0 0 0 1px rgba(0, 0, 0, .05);
 	border-radius: $radiusBig;
 
 	&__toolbar {
@@ -14,7 +13,9 @@
 		grid-column-gap: $gutter;
 		align-items: center;
 		padding: 8px 20px;
+		background: linear-gradient(#fafafa, #f4f4f4);
 		border-bottom: 1px solid rgba(0, 0, 0, .1);
+		border-radius: $radiusBig $radiusBig 0 0;
 	}
 
 	&__dots {
@@ -44,13 +45,18 @@
 
 	&__address {
 		border-radius: $radiusSmall;
-		padding: 6px;
-		background: rgba(0, 0, 0, .05);
+		padding: 4px;
+		background: color('light');
+		border: 1px solid rgba(0, 0, 0, .1);
 		font-size: 12px;
 	}
 
 	&__content {
 		position: relative;
+	}
+
+	&__image {
+		border-radius: 0 0 $radiusBig $radiusBig;
 	}
 
 }
