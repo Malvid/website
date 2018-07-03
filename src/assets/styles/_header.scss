@@ -16,4 +16,22 @@
 		-webkit-backdrop-filter: blur(30px);
 	}
 
+	&__content {
+		display: flex;
+		align-items: center;
+		justify-content: flex-end;
+	}
+
+	&__icon {
+		$size: 32px;
+
+		display: block;
+		margin-left: $gutter;
+		width: $size;
+		height: $size;
+		fill: color('dark');
+		// Dimm element to look more like the dark text
+		opacity: .8;
+	}
+
 }

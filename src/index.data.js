@@ -4,6 +4,34 @@ module.exports = {
 		header: {
 			logo: {
 				header: 'Malvid'
+			},
+			nav: {
+				content: [
+					{
+						label: 'Get Started',
+						href: {
+							value: 'https://github.com/Malvid/Malvid/blob/master/docs/Get%20started.md'
+						}
+					},
+					{
+						label: 'Documentation',
+						href: {
+							value: 'https://github.com/Malvid/Malvid/blob/master/README.md'
+						}
+					},
+					{
+						label: 'Changelog',
+						href: {
+							value: 'https://github.com/Malvid/Malvid/blob/master/CHANGELOG.md'
+						}
+					}
+				]
+			},
+			icon: {
+				icon: 'github',
+				href: {
+					value: 'https://github.com/comwrap/Malvid'
+				}
 			}
 		},
 		section_hero: {
