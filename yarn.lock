@@ -827,6 +827,12 @@ basicgrid@^3.0.1:
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/basicgrid/-/basicgrid-3.1.0.tgz#776cdcde53418696774c82d49c87aa40ceb54ddd"
 
+basicslider@^1.1.2:
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/basicslider/-/basicslider-1.1.2.tgz#b29a6f0d248fa7d30e56c2c210429a9ff500ef27"
+  dependencies:
+    count-between "^1.0.5"
+
 batch@0.5.3:
   version "0.5.3"
   resolved "https://registry.yarnpkg.com/batch/-/batch-0.5.3.tgz#3f3414f380321743bfc1042f9a83ff1d5824d464"
@@ -1466,6 +1472,10 @@ core-js@^2.4.0, core-js@^2.5.0:
 core-util-is@1.0.2, core-util-is@~1.0.0:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/core-util-is/-/core-util-is-1.0.2.tgz#b5fd54220aa2bc5ab57aab7140c940754503c1a7"
+
+count-between@^1.0.5:
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/count-between/-/count-between-1.0.5.tgz#d9f6cbae2ab6f5fd07a67b62b571b8add6d7b8d6"
 
 create-ecdh@^4.0.0:
   version "4.0.3"
@@ -2868,10 +2878,6 @@ jsprim@^1.2.2:
     json-schema "0.2.3"
     verror "1.10.0"
 
-jump.js@^1.0.2:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/jump.js/-/jump.js-1.0.2.tgz#e0641b47f40a38f2139c25fda0500bf28e43015a"
-
 junk@^2.1.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/junk/-/junk-2.1.0.tgz#f431b4b7f072dc500a5f10ce7f4ec71930e70134"
@@ -3560,13 +3566,6 @@ pako@~1.0.5:
   version "1.0.6"
   resolved "https://registry.yarnpkg.com/pako/-/pako-1.0.6.tgz#0101211baa70c4bca4a0f63f2206e97b7dfaf258"
 
-parallax-js@^3.1.0:
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/parallax-js/-/parallax-js-3.1.0.tgz#cc8a5d7dd5e2529b94b9a34f3d4cd13a22eb049e"
-  dependencies:
-    object-assign "^4.1.1"
-    raf "^3.3.0"
-
 parents@^1.0.0, parents@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/parents/-/parents-1.0.1.tgz#fedd4d2bf193a77745fe71e371d73c3307d9c751"
@@ -3673,10 +3672,6 @@ pbkdf2@^3.0.3:
 performance-now@^0.2.0:
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/performance-now/-/performance-now-0.2.0.tgz#33ef30c5c77d4ea21c5a53869d91b56d8f2555e5"
-
-performance-now@^2.1.0:
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/performance-now/-/performance-now-2.1.0.tgz#6309f4e0e5fa913ec1c69307ae364b4b377c9e7b"
 
 pify@^2.0.0:
   version "2.3.0"
@@ -4019,12 +4014,6 @@ querystring-es3@~0.2.0:
 querystring@0.2.0:
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/querystring/-/querystring-0.2.0.tgz#b209849203bb25df820da756e747005878521620"
-
-raf@^3.3.0:
-  version "3.4.0"
-  resolved "https://registry.yarnpkg.com/raf/-/raf-3.4.0.tgz#a28876881b4bc2ca9117d4138163ddb80f781575"
-  dependencies:
-    performance-now "^2.1.0"
 
 randomatic@^3.0.0:
   version "3.0.0"

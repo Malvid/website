@@ -1,10 +1,12 @@
 // Basics ------------------------------------------------------ //
 @import 'functions';
+@import 'placeholders';
 @import 'vars';
 
 // Modules ----------------------------------------------------- //
 @import '../../../node_modules/normalize.css/normalize';
 @import '../../../node_modules/basicgrid/src/styles/main';
+@import '../../../node_modules/basicslider/src/styles/main';
 
 // Styles ------------------------------------------------------ //
 @import 'html';
@@ -30,4 +32,6 @@
 @import 'link';
 @import 'href';
 @import 'feature';
+@import 'icon';
+@import 'quotes';
 @import 'footer';

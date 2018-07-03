@@ -1,0 +1,12 @@
+.icon {
+
+	$size: 32px;
+
+	display: block;
+	margin-left: $gutter;
+	width: $size;
+	height: $size;
+	// Dimm element to look more like the dark text
+	opacity: .45;
+
+}

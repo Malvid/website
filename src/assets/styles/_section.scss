@@ -7,6 +7,14 @@
 		padding: $sectionPadding/2 0 calc(#{ $sectionPadding/2 } - #{ $gutter/2 });
 	}
 
+	&--zero {
+		padding: 0;
+	}
+
+	&--highlighted {
+		background: rgba(0, 0, 0, .02);
+	}
+
 	&--enclosed {
 		border-bottom: 1px solid color('grey');
 	}

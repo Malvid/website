@@ -9,7 +9,8 @@ html {
 	font: $fontStack;
 
 	@media (max-width: $bpS) {
-		--basicGrid-outer: 0;
+		// Must have a unit to be usable in calc()
+		--basicGrid-outer: 0px;
 
 		font-size: 100%;
 	}

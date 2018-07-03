@@ -1,0 +1,42 @@
+<div class="section section--zero section--highlighted quotes">
+	<div class="quotes__main">
+
+		{% for item in content %}
+			<div class="quotes__quote">
+
+				<svg class="quotes__quotation spacing-small"><use xlink:href="#quotation"></use></svg>
+				<blockquote class="h2 c-black spacing-large">{{ item.bodytext }}</blockquote>
+
+				<div class="quotes__footer">
+
+					<div class="quotes__author">
+						<img class="quotes__logo spacing-zero" src="{{ item.author.image.src }}" alt="{{ item.author.image.alternative }}">
+						<div>
+							<p class="c-black spacing-zero"><b>{{ item.author.name }}</b><br></p>
+							<p class="spacing-zero">{{ item.author.description }}</p>
+						</div>
+					</div>
+
+					<div>
+						<button class="quotes__arrow quotes__arrow--prev">
+							<svg class="quotes__icon"><use xlink:href="#arrow"></use></svg>
+						</button>
+						<button class="quotes__arrow quotes__arrow--next">
+							<svg class="quotes__icon"><use xlink:href="#arrow"></use></svg>
+						</button>
+					</div>
+
+				</div>
+
+			</div>
+		{% endfor %}
+
+	</div>
+	<div class="quotes__aside">
+
+		{% for item in content %}
+			<img class="quotes__image" src="{{ item.image.src }}" alt="{{ item.image.alternative }}">
+		{% endfor %}
+
+	</div>
+</div>
