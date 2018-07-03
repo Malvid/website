@@ -7,4 +7,18 @@
 	padding-top: calc(#{ $sectionPadding } + #{ $headerHeight });
 	background: gradient('subtle');
 
+	&::before {
+		content: '';
+		position: absolute;
+		top: 0;
+		right: 0;
+		width: 70%;
+		height: 100%;
+		background: #eee;
+		background-image: radial-gradient(closest-side, rgba(255, 255, 255, .94), rgba(255, 255, 255, .94), rgba(255, 255, 255, 1)), url('/assets/images/grid.svg');
+		background-repeat: no-repeat, repeat;
+		background-size: auto, 75px 44px;
+		mix-blend-mode: multiply;
+	}
+
 }
