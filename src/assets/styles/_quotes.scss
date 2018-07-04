@@ -70,21 +70,6 @@
 		align-items: center;
 	}
 
-	&__author {
-		display: flex;
-		align-items: center;
-		line-height: 1.5;
-	}
-
-	&__logo {
-		$size: 68px;
-
-		width: $size;
-		height: $size;
-		margin-right: $gutter/1.5;
-		border-radius: 100%;
-	}
-
 	&__image {
 		position: absolute;
 		width: 100%;

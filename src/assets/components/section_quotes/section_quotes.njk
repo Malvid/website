@@ -9,13 +9,7 @@
 
 				<div class="quotes__footer">
 
-					<div class="quotes__author">
-						<img class="quotes__logo spacing-zero" src="{{ item.author.image.src }}" alt="{{ item.author.image.alternative }}">
-						<div>
-							<p class="c-black spacing-zero"><b>{{ item.author.name }}</b><br></p>
-							<p class="spacing-zero">{{ item.author.description }}</p>
-						</div>
-					</div>
+					{% inject "assets/components/author/author.njk", item.author %}
 
 					<div>
 						<button class="quotes__arrow quotes__arrow--prev">
