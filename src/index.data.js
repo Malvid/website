@@ -132,7 +132,7 @@ module.exports = {
 						}
 					},
 					position: {
-						x: 'center',
+						x: '75%',
 						y: 'center'
 					},
 					image: {
@@ -151,7 +151,7 @@ module.exports = {
 						}
 					},
 					position: {
-						x: 'right',
+						x: '75%',
 						y: 'bottom'
 					},
 					image: {
@@ -170,7 +170,7 @@ module.exports = {
 						}
 					},
 					position: {
-						x: 'center',
+						x: '45%',
 						y: 'center'
 					},
 					image: {
@@ -199,6 +199,21 @@ module.exports = {
 						icon: 'heart',
 						header: 'A workflow to love',
 						bodytext: 'Malvid allows you to test and debug isolated components aswell as sections or whole webpages.'
+					},
+					{
+						icon: 'flash',
+						header: 'Easy to deploy',
+						bodytext: 'Malvid exports static HTML, JS and CSS files. Host your UI anywhere simply by uploading the files to your server.'
+					},
+					{
+						icon: 'bug',
+						header: 'Adjustable to your needs',
+						bodytext: ''
+					},
+					{
+						icon: 'heart',
+						header: 'Useful to reference',
+						bodytext: 'Malvid offers a great visual reference to acceptance definition in agile methodologies. Everyone can see what you are talking about.'
 					}
 				]
 			}

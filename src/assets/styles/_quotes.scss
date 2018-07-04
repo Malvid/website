@@ -42,11 +42,16 @@
 
 	&__quote {
 		padding: $sectionPadding 0;
-		padding-right: $gutter*2;
+		padding-right: $gutter*3;
 		padding-left: calc(var(--basicGrid-outer, #{ $basicGrid__outer }) + #{ $basicGrid__gutter/2 });
 		max-width: calc(#{ $maxWidth } / 2 + var(--offset));
 
+		@media (max-width: $bpL) {
+			padding-right: $gutter*2;
+		}
+
 		@media (max-width: $bpM) {
+			padding-right: calc(var(--basicGrid-outer, #{ $basicGrid__outer }) + #{ $basicGrid__gutter/2 });
 			max-width: none;
 		}
 	}
