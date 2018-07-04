@@ -37,6 +37,8 @@ const init = (elem) => {
 
 	})
 
+	elem.classList.add('visible')
+
 }
 
 document.querySelectorAll('.quotes').forEach(init)

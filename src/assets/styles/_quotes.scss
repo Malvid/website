@@ -2,10 +2,23 @@
 
 	--offset: 250px;
 
-	display: flex;
+	display: none;
+
+	&.visible {
+		display: flex;
+	}
 
 	@media (max-width: $bpL) {
 		--offset: 100px;
+	}
+
+	&__main {
+		flex-shrink: 0;
+		width: calc(50vw + var(--offset));
+
+		@media (max-width: $bpM) {
+			width: 100%;
+		}
 	}
 
 	&__main .basicSlider__slide {
@@ -16,11 +29,10 @@
 
 	&__aside {
 		flex-shrink: 0;
-		width: calc(50% - var(--offset));
+		width: calc(50vw - var(--offset));
 
 		@media (max-width: $bpM) {
 			display: none;
-			width: 100%;
 		}
 	}
 
@@ -32,7 +44,6 @@
 		padding: $sectionPadding 0;
 		padding-right: $gutter*2;
 		padding-left: calc(var(--basicGrid-outer, #{ $basicGrid__outer }) + #{ $basicGrid__gutter/2 });
-		width: 100%;
 		max-width: calc(#{ $maxWidth } / 2 + var(--offset));
 
 		@media (max-width: $bpM) {
