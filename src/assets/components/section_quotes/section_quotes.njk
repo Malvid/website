@@ -35,7 +35,7 @@
 	<div class="quotes__aside">
 
 		{% for item in content %}
-			<img class="quotes__image" src="{{ item.image.src }}" alt="{{ item.image.alternative }}">
+			<img class="quotes__image" src="{{ item.image.src }}" alt="{{ item.image.alternative }}" style="--x: {{ item.position.x }}; --y: {{ item.position.y }}">
 		{% endfor %}
 
 	</div>

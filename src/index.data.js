@@ -119,6 +119,67 @@ module.exports = {
 				]
 			}
 		},
+		section_quotes: {
+			content: [
+				{
+					bodytext: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.',
+					author: {
+						name: 'comwrap GmbH',
+						description: 'Digital Enterprise Company',
+						image: {
+							src: '/assets/images/comwrap_logo.png',
+							alternative: 'Logo of comwrap GmbH'
+						}
+					},
+					position: {
+						x: 'center',
+						y: 'center'
+					},
+					image: {
+						src: '/assets/images/comwrap_image.jpg',
+						alternative: 'Placeholder'
+					}
+				},
+				{
+					bodytext: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.',
+					author: {
+						name: 'Electerious',
+						description: 'Web designer and developer',
+						image: {
+							src: '/assets/images/electerious_logo.png',
+							alternative: 'Logo of Electerious'
+						}
+					},
+					position: {
+						x: 'right',
+						y: 'bottom'
+					},
+					image: {
+						src: '/assets/images/electerious_image.jpg',
+						alternative: 'Placeholder'
+					}
+				},
+				{
+					bodytext: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.',
+					author: {
+						name: 'Setgraphic',
+						description: 'Webdesign Frankfurt',
+						image: {
+							src: '/assets/images/setgraphic_logo.jpg',
+							alternative: 'Logo of Setgraphic'
+						}
+					},
+					position: {
+						x: 'center',
+						y: 'center'
+					},
+					image: {
+						src: '/assets/images/setgraphic_image.jpg',
+						alternative: 'Placeholder'
+					}
+				}
+			]
+		},
 		section_features: {
 			id: 'features',
 			header: 'Many features,<br><b>but only what matters.</b>',
