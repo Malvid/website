@@ -122,7 +122,7 @@ module.exports = {
 		section_quotes: {
 			content: [
 				{
-					bodytext: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.',
+					bodytext: `Malvid changed the way we work at comwrap. It's the foundation and single source of truth for the project manager, designer, developer and client.`,
 					author: {
 						name: 'comwrap GmbH',
 						description: 'Digital Enterprise Company',
@@ -141,7 +141,7 @@ module.exports = {
 					}
 				},
 				{
-					bodytext: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.',
+					bodytext: 'Connecting front-end and back-end can be a painful process. Malvid takes this pain away by separating the site into small, testable and reliable components.',
 					author: {
 						name: 'Electerious',
 						description: 'Web designer and developer',
@@ -160,7 +160,7 @@ module.exports = {
 					}
 				},
 				{
-					bodytext: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.',
+					bodytext: '',
 					author: {
 						name: 'Setgraphic',
 						description: 'Webdesign Frankfurt',
