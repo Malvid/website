@@ -11,16 +11,18 @@
 		padding: 0;
 	}
 
-	&--highlighted {
+	&--dimmed {
 		background: rgba(0, 0, 0, .02);
-	}
-
-	&--enclosed {
-		border-bottom: 1px solid color('grey');
 	}
 
 	&--overflow {
 		overflow: hidden;
+	}
+
+	// Every section without a background followed by a section without a background
+	// should be separated with a border.
+	&:not(.section--dimmed) + &:not(.section--dimmed) {
+		border-top: 1px solid color('grey');
 	}
 
 }
