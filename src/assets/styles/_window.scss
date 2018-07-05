@@ -3,15 +3,18 @@
 	display: flex;
 	flex-direction: column;
 	margin-bottom: $gutter/2;
-	width: max-content;
 	box-shadow: $shadowSmall, 0 0 0 1px rgba(0, 0, 0, .05);
 	border-radius: $radiusBig;
+
+	&--wide {
+		width: max-content;
+	}
 
 	&__toolbar {
 		display: grid;
 		grid-template-columns: minmax(max-content, 1fr) minmax(auto, 600px) 1fr;
 		grid-column-gap: $gutter;
-		padding: 8px 20px;
+		padding: 8px $gutter/2;
 		height: 48px;
 		background: linear-gradient(#fafafa, #f4f4f4);
 		border-bottom: 1px solid rgba(0, 0, 0, .1);
@@ -56,6 +59,13 @@
 
 	&__content {
 		position: relative;
+		background: color('white');
+		border-radius: 0 0 $radiusBig $radiusBig;
+	}
+
+	&__text {
+		padding: $gutter/2 $gutter/2 0;
+		font-size: .9em;
 	}
 
 	&__image {
