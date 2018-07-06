@@ -1,5 +1,5 @@
 <nav class="nav">
 	{% for item in content %}
-		<a class="nav__item c-dark" href="{{ item.href.value }}" {% if item.href.target %}target="{{ item.href.target }}"{% endif %}>{{ item.label }}</a>
+		<a class="nav__item" href="{{ item.href.value }}" {% if item.href.target %}target="{{ item.href.target }}"{% endif %}>{{ item.label }}</a>
 	{% endfor %}
 </nav>

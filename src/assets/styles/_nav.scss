@@ -5,6 +5,7 @@
 	&__item {
 		padding: $gutter/2;
 		font-size: .9em;
+		color: color('dark');
 		transition: color $duration $timing;
 
 		&:hover {
