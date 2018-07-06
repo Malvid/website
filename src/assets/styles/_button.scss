@@ -9,13 +9,14 @@
 	white-space: nowrap;
 	cursor: pointer;
 	user-select: none;
-	transition: transform $duration $timing;
+	transition: transform $duration $timing, box-shadow $duration $timing;
 	border: 0;
 	border-radius: $radiusSmall;
 	vertical-align: middle;
 
 	&:hover {
 		transform: translateY(-2px);
+		box-shadow: $shadowSmall;
 	}
 
 	&:active {
