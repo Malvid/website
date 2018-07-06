@@ -1,12 +1,20 @@
 .icon {
 
-	$size: 32px;
+	padding-left: $gutter/2;
 
-	display: block;
-	margin-left: $gutter;
-	width: $size;
-	height: $size;
-	// Dimm element to look more like the dark text
-	opacity: .45;
+	&__symbol {
+		$size: 32px;
+
+		display: block;
+		width: $size;
+		height: $size;
+		// Dimm element to look more like the dark text
+		fill: rgba(0, 0, 0, .45);
+		transition: fill $duration $timing;
+	}
+
+	&:hover &__symbol {
+		fill: color('main');
+	}
 
 }
