@@ -80,7 +80,7 @@ module.exports = {
 					└── ...
 				</p>
 			`,
-			window: {
+			browser: {
 				url: 'http://localhost:3000/',
 				figure: {
 					src: '/assets/images/browser.png',
@@ -216,6 +216,54 @@ module.exports = {
 						bodytext: '<p>Malvid offers a great visual reference to acceptance definition in agile methodologies. Everyone can see what you are talking about.</p>'
 					}
 				]
+			}
+		},
+		section_usage: {
+			id: 'explanation',
+			header: 'Make code visual.<br><b>With your terminal.</b>',
+			subheader: 'Malvid can be integrated into your project using its API or CLI. The CLI tool is located in the bin folder and allows you to run Malvid without adding JS files to your project.',
+			steps: {
+				content: [
+					{
+						index: 1,
+						bodytext: `Execute Malvid using the CLI or using the API`
+					},
+					{
+						index: 2,
+						bodytext: `Malvid scans the folder you've specified and generates a static HTML output`
+					},
+					{
+						index: 3,
+						bodytext: `Open the generated site in your browser to view the UI`
+					}
+				]
+			},
+			terminal: {
+				bodytext: `
+					<p>
+						electerious$ malvid<br>
+						<br>
+						<span class="tab"></span>Usage:<br>
+						<br>
+						<span class="tab"></span>malvid [command] [filenames] [options]<br>
+						<br>
+						<span class="tab"></span>Commands:<br>
+						<br>
+						<span class="tab"></span>html [filename]  output HTML for the UI<br>
+						<span class="tab"></span>json [filename]  output JSON with component data<br>
+						<br>
+						<span class="tab"></span>Options:<br>
+						<br>
+						<span class="tab"></span>-V, --version  output the version number<br>
+						<span class="tab"></span>-h, --help     output usage information<br>
+						<br>
+						<span class="tab"></span>Examples:<br>
+						<br>
+						<span class="tab"></span>$ malvid index.html index.html.json<br>
+						<span class="tab"></span>$ malvid html index.html<br>
+						<span class="tab"></span>$ malvid json index.html.json
+					</p>
+				`
 			}
 		},
 		section_links: {
