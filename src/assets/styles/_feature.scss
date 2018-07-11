@@ -1,6 +1,6 @@
 .feature {
 
-	margin-bottom: $gutter;
+	margin-bottom: $gutter*1.5;
 
 	&__icon {
 		$size: 68px;
@@ -14,6 +14,10 @@
 
 		&--heart {
 			padding-right: 25px;
+		}
+
+		&--adjust {
+			padding-right: 16px;
 		}
 	}
 

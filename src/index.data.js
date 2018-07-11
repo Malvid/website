@@ -66,9 +66,9 @@ module.exports = {
 			bodytext: `
 				<p>
 					.<br>
-					├── accordion<br>
-					│   ├── accordion.data.json<br>
-					│   └── accordion.njk<br>
+					├── arrow<br>
+					│   ├── arrow.data.json<br>
+					│   └── arrow.njk<br>
 					├── area<br>
 					│   ├── area.data.json<br>
 					│   └── area.njk<br>
@@ -198,7 +198,7 @@ module.exports = {
 					{
 						icon: 'heart',
 						header: 'A workflow to love',
-						bodytext: '<p>Malvid allows you to test and debug isolated components aswell as sections or whole webpages.</p>'
+						bodytext: '<p>Life gets easier when everyone and everything works perfectly together. Malvid is the foundation for the workflow your team has been waiting for.</p>'
 					},
 					{
 						icon: 'flash',
@@ -206,9 +206,9 @@ module.exports = {
 						bodytext: '<p>Malvid exports static HTML, JS and CSS files. Host your UI anywhere simply by uploading the files to your server.</p>'
 					},
 					{
-						icon: 'bug',
+						icon: 'adjust',
 						header: 'Adjustable to your needs',
-						bodytext: '<p></p>'
+						bodytext: '<p>No matter which templating language or folder structure you use, Malvid can be adjusted to display whatever you want.</p>'
 					},
 					{
 						icon: 'heart',
@@ -234,7 +234,7 @@ module.exports = {
 					},
 					{
 						index: 3,
-						bodytext: `Open the generated site in your browser to view the UI`
+						bodytext: `Open the generated site to view the UI`
 					}
 				]
 			},
