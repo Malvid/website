@@ -60,7 +60,7 @@ module.exports = {
 					{
 						animated: false,
 						x: -147,
-						y: 70,
+						y: 30,
 						z: 0,
 						width: 140,
 						height: 220,
@@ -70,7 +70,7 @@ module.exports = {
 					{
 						animated: false,
 						x: 10,
-						y: -92,
+						y: -132,
 						z: -200,
 						width: 240,
 						height: 60,
@@ -81,7 +81,7 @@ module.exports = {
 					{
 						animated: true,
 						x: -40,
-						y: 60,
+						y: 20,
 						z: 0,
 						width: 200,
 						height: 60,
@@ -92,7 +92,7 @@ module.exports = {
 					{
 						animated: false,
 						x: -45,
-						y: 76,
+						y: 36,
 						z: 0,
 						width: 220,
 						height: 140,
@@ -102,7 +102,7 @@ module.exports = {
 					{
 						animated: false,
 						x: 148,
-						y: 125,
+						y: 85,
 						z: 0,
 						width: 140,
 						height: 140,
@@ -112,11 +112,11 @@ module.exports = {
 					{
 						animated: false,
 						x: -62,
-						y: 260,
+						y: 220,
 						z: 0,
 						width: 240,
 						height: 60,
-						bodytext: '{{ subheader }}',
+						bodytext: '{{ bodytext }}',
 						background: 'white',
 						color: 'main'
 					}
