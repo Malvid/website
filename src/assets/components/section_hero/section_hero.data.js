@@ -12,7 +12,5 @@ module.exports = {
 			label: 'Lorem'
 		}
 	],
-	next: {
-		id: 'explanation'
-	}
+	shapes: require('../shapes/shapes.data')
 }

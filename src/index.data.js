@@ -55,8 +55,72 @@ module.exports = {
 					}
 				}
 			],
-			next: {
-				id: 'explanation'
+			shapes: {
+				content: [
+					{
+						animated: false,
+						x: -147,
+						y: 70,
+						z: 0,
+						width: 140,
+						height: 220,
+						background: 'dark',
+						color: 'white'
+					},
+					{
+						animated: false,
+						x: 10,
+						y: -92,
+						z: -200,
+						width: 240,
+						height: 60,
+						bodytext: '{{ subheader }}',
+						background: 'white',
+						color: 'main'
+					},
+					{
+						animated: true,
+						x: -40,
+						y: 60,
+						z: 0,
+						width: 200,
+						height: 60,
+						bodytext: '{{ header }}',
+						background: 'main',
+						color: 'white'
+					},
+					{
+						animated: false,
+						x: -45,
+						y: 76,
+						z: 0,
+						width: 220,
+						height: 140,
+						background: 'dark',
+						color: 'white'
+					},
+					{
+						animated: false,
+						x: 148,
+						y: 125,
+						z: 0,
+						width: 140,
+						height: 140,
+						background: 'dark',
+						color: 'white'
+					},
+					{
+						animated: false,
+						x: -62,
+						y: 260,
+						z: 0,
+						width: 240,
+						height: 60,
+						bodytext: '{{ subheader }}',
+						background: 'white',
+						color: 'main'
+					}
+				]
 			}
 		},
 		section_explanation: {
