@@ -9,18 +9,21 @@ module.exports = {
 				content: [
 					{
 						label: 'Get Started',
+						mobile: false,
 						href: {
 							value: 'https://github.com/Malvid/Malvid/blob/master/docs/Get%20started.md'
 						}
 					},
 					{
 						label: 'Documentation',
+						mobile: true,
 						href: {
 							value: 'https://github.com/Malvid/Malvid/blob/master/README.md'
 						}
 					},
 					{
 						label: 'Changelog',
+						mobile: false,
 						href: {
 							value: 'https://github.com/Malvid/Malvid/blob/master/CHANGELOG.md'
 						}

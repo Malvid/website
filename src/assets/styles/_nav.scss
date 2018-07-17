@@ -8,6 +8,14 @@
 		color: color('dark');
 		transition: color $duration $timing;
 
+		@media (max-width: $bpXS) {
+			display: none;
+		}
+
+		&--mobile {
+			display: block;
+		}
+
 		&:hover {
 			color: color('main');
 		}
