@@ -224,7 +224,7 @@ module.exports = {
 					}
 				},
 				{
-					bodytext: '',
+					bodytext: 'Malvid allows us to work on multiple components at the same time. It keeps the team and project organized so we can add more logic without losing sight.',
 					author: {
 						name: 'Setgraphic',
 						description: 'Webdesign Frankfurt',
