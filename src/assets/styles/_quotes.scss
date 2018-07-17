@@ -78,10 +78,15 @@
 		object-position: var(--x) var(--y);
 	}
 
+	&__arrows {
+		display: flex;
+	}
+
 	&__arrow {
 		@extend %button;
 
 		opacity: .2;
+		padding: $gutter/2 $gutter/8;
 		transition: opacity $duration $timing;
 
 		&:hover {
@@ -89,12 +94,7 @@
 		}
 
 		&--prev {
-			margin-right: $gutter/8;
 			transform: scaleX(-1);
-		}
-
-		&--next {
-			margin-left: $gutter/8;
 		}
 	}
 
