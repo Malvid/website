@@ -9,6 +9,13 @@ $colors: (
 	'main': #2d84fc
 );
 
+$shades: (
+	'white': color('white'),
+	'black': #444,
+	'light': #ddd,
+	'main': color('main')
+);
+
 $gradients: (
 	'subtle': linear-gradient(color('subtle'), color('white')),
 	'shine': linear-gradient(135deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, .1))

@@ -1,11 +1,26 @@
 .shape {
 
-	@keyframes transform {
+	@keyframes high {
 		0% {
+			transform: translate(-10px, -10px);
+		}
+		5% {
 			transform: translate(-10px, -10px);
 		}
 		100% {
 			transform: translate(-100px, -100px);
+		}
+	}
+
+	@keyframes low {
+		0% {
+			transform: translate(-10px, -10px);
+		}
+		5% {
+			transform: translate(-10px, -10px);
+		}
+		100% {
+			transform: translate(-60px, -60px);
 		}
 	}
 
@@ -53,31 +68,31 @@
 		transform: translate(-10px, -10px);
 	}
 
-	@each $colorName, $color in $colors {
+	@each $colorName, $color in $shades {
 		&--#{ $colorName }::after {
 			background: $color;
 			box-shadow:
-				1px 1px 0 darken($color, 20%),
-				2px 2px 0 darken($color, 20%),
-				3px 3px 0 darken($color, 20%),
-				4px 4px 0 darken($color, 20%);
+				1px 1px 0 desaturate(darken($color, 10%), 20%),
+				2px 2px 0 desaturate(darken($color, 10%), 20%),
+				3px 3px 0 desaturate(darken($color, 10%), 20%),
+				4px 4px 0 desaturate(darken($color, 10%), 20%);
 		}
 	}
 
-	&--animated::before,
-	&--animated::after {
+	&--animation::before,
+	&--animation::after {
 		animation-duration: 4s;
 		animation-timing-function: ease;
 		animation-iteration-count: infinite;
 		animation-direction: alternate;
 	}
 
-	&--animated::before {
+	&--animation::before {
 		animation-name: opacity;
 	}
 
-	&--animated::after {
-		animation-name: transform;
+	&--animation::after {
+		animation-name: var(--animation);
 	}
 
 }

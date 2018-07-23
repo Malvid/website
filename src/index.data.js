@@ -61,17 +61,15 @@ module.exports = {
 			shapes: {
 				content: [
 					{
-						animated: false,
 						x: -127,
 						y: 20,
 						z: 0,
 						width: 140,
 						height: 220,
-						background: 'dark',
+						background: 'black',
 						color: 'white'
 					},
 					{
-						animated: false,
 						x: 30,
 						y: -142,
 						z: -200,
@@ -82,9 +80,19 @@ module.exports = {
 						color: 'main'
 					},
 					{
-						animated: true,
-						x: -20,
-						y: 10,
+						x: -25,
+						y: 26,
+						z: 0,
+						width: 220,
+						height: 140,
+						background: 'black',
+						color: 'white'
+					},
+					{
+						animation: 'high',
+						level: 2,
+						x: -33,
+						y: 41,
 						z: 0,
 						width: 200,
 						height: 60,
@@ -93,34 +101,32 @@ module.exports = {
 						color: 'white'
 					},
 					{
-						animated: false,
-						x: -25,
-						y: 26,
+						x: 166,
+						y: 86,
 						z: 0,
-						width: 220,
+						width: 160,
 						height: 140,
-						background: 'dark',
+						background: 'black',
 						color: 'white'
 					},
 					{
-						animated: false,
-						x: 168,
-						y: 75,
-						z: 0,
-						width: 140,
-						height: 140,
-						background: 'dark',
-						color: 'white'
-					},
-					{
-						animated: false,
 						x: -42,
-						y: 220,
+						y: 209,
 						z: 0,
 						width: 240,
 						height: 60,
 						bodytext: '{{ bodytext }}',
 						background: 'white',
+						color: 'main'
+					},
+					{
+						animation: 'low',
+						x: -55,
+						y: -32,
+						z: 0,
+						width: 60,
+						height: 60,
+						background: 'light',
 						color: 'main'
 					}
 				]
