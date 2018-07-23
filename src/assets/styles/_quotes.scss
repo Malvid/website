@@ -46,6 +46,11 @@
 		padding-left: calc(var(--basicGrid-outer, #{ $basicGrid__outer }) + #{ $basicGrid__gutter/2 });
 		max-width: calc(#{ $maxWidth } / 2 + var(--offset));
 
+		@media (max-height: 900px) {
+			padding-top: $sectionPadding/2;
+			padding-bottom: $sectionPadding/2;
+		}
+
 		@media (max-width: $bpL) {
 			padding-right: $gutter*2;
 		}

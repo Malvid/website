@@ -3,8 +3,19 @@
 	padding: $sectionPadding 0 calc(#{ $sectionPadding } - #{ $gutter/2 });
 	outline: none;
 
+	@media (max-height: 900px) {
+		padding-top: $sectionPadding/2;
+		padding-bottom: calc(#{ $sectionPadding/2 } - #{ $gutter/2 });
+	}
+
 	&--small {
-		padding: $sectionPadding/2 0 calc(#{ $sectionPadding/2 } - #{ $gutter/2 });
+		padding-top: $sectionPadding/2;
+		padding-bottom: calc(#{ $sectionPadding/2 } - #{ $gutter/2 });
+	}
+
+	&--hero {
+		padding-top: calc(#{ $sectionPadding/2 } + #{ $headerHeight });
+		padding-bottom: calc(#{ $sectionPadding/2 } - #{ $gutter/2 });
 	}
 
 	&--zero {
