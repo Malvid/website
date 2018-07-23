@@ -5,7 +5,7 @@ module.exports = {
 	z: 0,
 	width: 100,
 	height: 100,
-	bodytext: '{{ header }}',
+	bodytext: 'A',
 	background: 'main',
 	color: 'white'
 }
