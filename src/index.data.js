@@ -328,7 +328,7 @@ module.exports = {
 						<br>
 						<span class="tab"></span>$ malvid index.html index.html.json<br>
 						<span class="tab"></span>$ malvid html index.html<br>
-						<span class="tab"></span>$ malvid json index.html.json
+						<span class="tab"></span>$ malvid json index.html.json<span class="cursor"></span>
 					</p>
 				`
 			}
