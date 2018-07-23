@@ -63,7 +63,7 @@ module.exports = {
 					{
 						animated: false,
 						x: -147,
-						y: 30,
+						y: 20,
 						z: 0,
 						width: 140,
 						height: 220,
@@ -73,7 +73,7 @@ module.exports = {
 					{
 						animated: false,
 						x: 10,
-						y: -132,
+						y: -142,
 						z: -200,
 						width: 240,
 						height: 60,
@@ -84,7 +84,7 @@ module.exports = {
 					{
 						animated: true,
 						x: -40,
-						y: 20,
+						y: 10,
 						z: 0,
 						width: 200,
 						height: 60,
@@ -95,7 +95,7 @@ module.exports = {
 					{
 						animated: false,
 						x: -45,
-						y: 36,
+						y: 26,
 						z: 0,
 						width: 220,
 						height: 140,
@@ -105,7 +105,7 @@ module.exports = {
 					{
 						animated: false,
 						x: 148,
-						y: 85,
+						y: 75,
 						z: 0,
 						width: 140,
 						height: 140,
