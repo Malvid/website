@@ -66,6 +66,9 @@
 	&__text {
 		padding: $gutter/1.5 $gutter/1.5 $gutter/2;
 		font-size: .9em;
+		white-space: nowrap;
+		overflow: auto;
+		-webkit-overflow-scrolling: touch;
 	}
 
 	&__image {
