@@ -264,7 +264,7 @@ module.exports = {
 						bodytext: '<p>Malvid is written in Node.js and rendered via React to ensure a blazing fast generation and usage. Switch between components without a single reload.</p>'
 					},
 					{
-						icon: 'bug',
+						icon: 'tube',
 						header: 'Easier to test',
 						bodytext: '<p>Malvid allows you to test and debug isolated components aswell as sections or whole webpages.</p>'
 					},
@@ -274,7 +274,7 @@ module.exports = {
 						bodytext: '<p>Life gets easier when everyone and everything works perfectly together. Malvid is the foundation for the workflow your team has been waiting for.</p>'
 					},
 					{
-						icon: 'flash',
+						icon: 'cloud',
 						header: 'Easy to deploy',
 						bodytext: '<p>Malvid exports static HTML, JS and CSS files. Host your UI anywhere simply by uploading the files to your server.</p>'
 					},
@@ -284,7 +284,7 @@ module.exports = {
 						bodytext: '<p>No matter which templating language or folder structure you use, Malvid can be adjusted to display whatever you want.</p>'
 					},
 					{
-						icon: 'heart',
+						icon: 'bubble',
 						header: 'Useful to reference',
 						bodytext: '<p>Malvid offers a great visual reference to acceptance definition in agile methodologies. Everyone can see what you are talking about.</p>'
 					}

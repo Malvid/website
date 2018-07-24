@@ -8,16 +8,27 @@
 		width: $size;
 		height: $size;
 
-		&--bug {
-			padding-right: 15px;
+		&--tube {
+			padding-right: 10px;
 		}
 
 		&--heart {
-			padding-right: 25px;
+			padding-top: 9px;
+			padding-right: 10px;
+		}
+
+		&--cloud {
+			padding-right: 4px;
 		}
 
 		&--adjust {
+			padding-top: 2px;
 			padding-right: 16px;
+		}
+
+		&--bubble {
+			padding-right: 12px;
+			padding-bottom: 2px;
 		}
 	}
 
