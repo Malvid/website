@@ -43,6 +43,10 @@
 	margin: $size/-2 0 0 $size/-2;
 	z-index: 1;
 
+	@media (hover: none) {
+		display: none;
+	}
+
 	&__inner {
 		width: 100%;
 		height: 100%;

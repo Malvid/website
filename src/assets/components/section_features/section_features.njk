@@ -1,12 +1,12 @@
-<div class="section section--enclosed" id="{{ id }}">
+<div class="section section--overflow" id="{{ id }}">
 
 	<div class="row">
 		<div class="column medium-6 large-5">
 
-			<h2 class="h1 c-black">{{ header | safe }}</h2>
-			{% if subheader %}<p class="h3">{{ subheader }}</p>{% endif %}
-
-			<div class="spacing-huge"></div>
+			{% inject "assets/components/head/head.njk", {
+				header: header,
+				subheader: subheader
+			} %}
 
 		</div>
 	</div>

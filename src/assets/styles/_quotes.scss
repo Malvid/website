@@ -1,0 +1,111 @@
+.quotes {
+
+	--offset: 250px;
+
+	display: none;
+
+	&.visible {
+		display: flex;
+	}
+
+	@media (max-width: $bpL) {
+		--offset: 100px;
+	}
+
+	&__main {
+		flex-shrink: 0;
+		width: calc(50vw + var(--offset));
+
+		@media (max-width: $bpM) {
+			width: 100%;
+		}
+	}
+
+	&__main .basicSlider__slide {
+		display: flex;
+		align-items: center;
+		justify-content: flex-end;
+	}
+
+	&__aside {
+		flex-shrink: 0;
+		width: calc(50vw - var(--offset));
+
+		@media (max-width: $bpM) {
+			display: none;
+		}
+	}
+
+	&__aside .basicSlider__slide {
+		position: relative;
+	}
+
+	&__quote {
+		padding: $sectionPadding 0;
+		padding-right: $gutter*3;
+		padding-left: calc(var(--basicGrid-outer, #{ $basicGrid__outer }) + #{ $basicGrid__gutter/2 });
+		max-width: calc(#{ $maxWidth } / 2 + var(--offset));
+
+		@media (max-height: 900px) {
+			padding-top: $sectionPadding/2;
+			padding-bottom: $sectionPadding/2;
+		}
+
+		@media (max-width: $bpL) {
+			padding-right: $gutter*2;
+		}
+
+		@media (max-width: $bpM) {
+			padding-right: calc(var(--basicGrid-outer, #{ $basicGrid__outer }) + #{ $basicGrid__gutter/2 });
+			max-width: none;
+		}
+	}
+
+	&__quotation {
+		$size: 46px;
+
+		width: $size;
+		height: $size;
+		opacity: .2;
+	}
+
+	&__footer {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	&__image {
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+		object-position: var(--x) var(--y);
+	}
+
+	&__arrows {
+		display: flex;
+	}
+
+	&__arrow {
+		@extend %button;
+
+		opacity: .2;
+		padding: $gutter/2 $gutter/8;
+		transition: opacity $duration $timing;
+
+		&:hover {
+			opacity: .4;
+		}
+
+		&--prev {
+			transform: scaleX(-1);
+		}
+	}
+
+	&__arrow svg {
+		width: 41px;
+		height: 15px;
+	}
+
+}

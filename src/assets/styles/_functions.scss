@@ -13,6 +13,21 @@
 
 }
 
+@function shade($key) {
+
+	@if type-of($key)=='color' {
+		@error 'Never user colors like `#{ $key }` as map keys';
+	}
+
+	@if map-has-key($shades, $key) {
+		@return map-get($shades, $key);
+	}
+
+	@error 'Unknown `#{ $key }` in $shades.';
+	@return null;
+
+}
+
 @function gradient($key) {
 
 	@if type-of($key)=='color' {

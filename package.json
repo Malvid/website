@@ -18,9 +18,8 @@
   },
   "dependencies": {
     "basicgrid": "^3.0.1",
-    "jump.js": "^1.0.2",
+    "basicslider": "^1.1.2",
     "normalize.css": "^8.0.0",
-    "parallax-js": "^3.1.0",
     "rosid": "^9.0.3",
     "rosid-handler-js": "^10.1.0",
     "rosid-handler-malvid": "^3.0.0",

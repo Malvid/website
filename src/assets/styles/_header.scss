@@ -1,13 +1,27 @@
 .header {
 
-	position: absolute;
+	position: fixed;
 	display: flex;
 	align-items: center;
 	top: 0;
 	left: 0;
 	height: $headerHeight;
 	width: 100%;
-	background: rgba(0, 0, 0, .05);
-	z-index: 1;
+	background: color('white');
+	border-bottom: 1px solid rgba(0, 0, 0, .1);
+	z-index: 2;
+	// Make it appear above shapes
+	transform: translateZ(1000px);
+
+	@supports (-webkit-backdrop-filter: blur(0)) {
+		background: rgba(color('white'), .7);
+		-webkit-backdrop-filter: blur(30px);
+	}
+
+	&__content {
+		display: flex;
+		justify-content: flex-end;
+		align-items: center;
+	}
 
 }

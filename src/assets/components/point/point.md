@@ -1,0 +1,1 @@
+Animated point with a tooltip. Can be placed freely when inside a relative box.

@@ -1,0 +1,20 @@
+.cursor {
+
+	@keyframes pulse {
+		0% {
+			opacity: 1;
+		}
+		100% {
+			opacity: .2;
+		}
+	}
+
+	display: inline-block;
+	margin-left: .2em;
+	width: .6em;
+	height: 1.1em;
+	background: currentColor;
+	vertical-align: text-bottom;
+	animation: pulse 1s ease infinite alternate;
+
+}

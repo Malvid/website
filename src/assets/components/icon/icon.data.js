@@ -1,3 +1,6 @@
 module.exports = {
-	icon: 'asterisk'
+	icon: 'github',
+	href: {
+		value: '#'
+	}
 }

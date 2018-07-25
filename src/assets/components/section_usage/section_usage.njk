@@ -1,0 +1,23 @@
+<div class="section section--dimmed usage" id="{{ id }}">
+
+	<div class="row row--spacing middle-on-small">
+		<div class="column medium-7 large-7">
+
+			<div class="usage__gutter">
+				{% inject "assets/components/terminal/terminal.njk", terminal %}
+			</div>
+
+		</div>
+		<div class="column medium-5 large-5">
+
+			{% inject "assets/components/head/head.njk", {
+				header: header,
+				subheader: subheader
+			} %}
+
+			{% inject "assets/components/steps/steps.njk", steps %}
+
+		</div>
+	</div>
+
+</div>

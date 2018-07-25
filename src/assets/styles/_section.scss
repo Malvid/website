@@ -3,16 +3,37 @@
 	padding: $sectionPadding 0 calc(#{ $sectionPadding } - #{ $gutter/2 });
 	outline: none;
 
-	&--small {
-		padding: $sectionPadding/2 0 calc(#{ $sectionPadding/2 } - #{ $gutter/2 });
+	@media (max-height: 900px) {
+		padding-top: $sectionPadding/2;
+		padding-bottom: calc(#{ $sectionPadding/2 } - #{ $gutter/2 });
 	}
 
-	&--enclosed {
-		border-bottom: 1px solid darken(color('background'), 5%);
+	&--small {
+		padding-top: $sectionPadding/2;
+		padding-bottom: calc(#{ $sectionPadding/2 } - #{ $gutter/2 });
+	}
+
+	&--hero {
+		padding-top: calc(#{ $sectionPadding/2 } + #{ $headerHeight });
+		padding-bottom: calc(#{ $sectionPadding/2 } - #{ $gutter/2 });
+	}
+
+	&--zero {
+		padding: 0;
+	}
+
+	&--dimmed {
+		background: rgba(0, 0, 140, .02);
 	}
 
 	&--overflow {
 		overflow: hidden;
+	}
+
+	// Every section without a background followed by a section without a background
+	// should be separated with a border.
+	&:not(.section--dimmed) + &:not(.section--dimmed) {
+		border-top: 1px solid color('grey');
 	}
 
 }

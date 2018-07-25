@@ -1,0 +1,1 @@
+Small wrapper around the `window` component.

@@ -1,0 +1,11 @@
+.usage {
+
+	&__gutter {
+		margin-right: $gutter;
+
+		@media (max-width: $bpXS) {
+			margin-right: 0;
+		}
+	}
+
+}

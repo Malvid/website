@@ -1,0 +1,26 @@
+<div class="window {% if figure %}window--wide{% endif %}">
+	<div class="window__toolbar">
+		<div class="window__dots">
+			<div class="window__dot window__dot--red"></div>
+			<div class="window__dot window__dot--yellow"></div>
+			<div class="window__dot window__dot--grey"></div>
+		</div>
+		{% if url %}
+			<div class="window__address align-center">
+				<p class="spacing-zero">{{ url }}</p>
+			</div>
+		{% endif %}
+	</div>
+	<div class="window__content">
+		{% if figure %}
+			<img class="window__image spacing-zero" src="{{ figure.src }}" width="{{ figure.width }}" height="{{ figure.height }}" alt="{{ figure.alternative }}">
+		{% elseif bodytext %}
+			<div class="window__text c-black f-notomono">
+				{{ bodytext | safe }}
+			</div>
+		{% endif %}
+		{% for item in points %}
+			{% inject "assets/components/point/point.njk", item %}
+		{% endfor %}
+	</div>
+</div>

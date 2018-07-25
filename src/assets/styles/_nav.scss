@@ -1,7 +1,24 @@
 .nav {
 
+	display: flex;
+
 	&__item {
-		margin-left: $gutter/3;
+		padding: $gutter/2;
+		font-size: .9em;
+		color: color('dark');
+		transition: color $duration $timing;
+
+		@media (max-width: $bpXS) {
+			display: none;
+		}
+
+		&--mobile {
+			display: block;
+		}
+
+		&:hover {
+			color: color('main');
+		}
 	}
 
 }

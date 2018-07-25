@@ -1,26 +1,35 @@
 .feature {
 
-	padding: $gutter*2 $featurePadding $gutter*1.5;
-	background: color('white');
-	border-radius: $radiusBig;
-	overflow: hidden;
+	margin-bottom: $gutter*1.5;
 
-	&--wide {
-		--columns: 2;
+	&__icon {
+		$size: 68px;
 
-		grid-column: span var(--columns);
+		width: $size;
+		height: $size;
 
-		@media (max-width: $bpXS) {
-			--columns: 1;
+		&--tube {
+			padding-right: 10px;
 		}
-	}
 
-	&__browser {
-		min-height: 330px;
-	}
+		&--heart {
+			padding-top: 9px;
+			padding-right: 10px;
+		}
 
-	&__browser .browser {
-		position: absolute;
+		&--cloud {
+			padding-right: 4px;
+		}
+
+		&--adjust {
+			padding-top: 2px;
+			padding-right: 16px;
+		}
+
+		&--bubble {
+			padding-right: 12px;
+			padding-bottom: 2px;
+		}
 	}
 
 }

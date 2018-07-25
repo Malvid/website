@@ -1,28 +1,32 @@
 .button {
 
-	$padding: 1.2em;
-
 	position: relative;
 	display: inline-block;
 	margin: 0 $gutter/4 $gutter/2 0;
-	padding: .8em $padding .9em;
+	padding: .8em $gutter .9em;
 	line-height: 1;
 	text-align: center;
 	white-space: nowrap;
 	cursor: pointer;
 	user-select: none;
-	transition: transform $duration $timing;
+	transition: transform $duration $timing, box-shadow $duration $timing;
 	border: 0;
 	border-radius: $radiusSmall;
 	vertical-align: middle;
 
 	&:hover {
 		transform: translateY(-2px);
+		box-shadow: $shadowSmall;
 	}
 
 	&:active {
 		transition: none;
 		transform: translateY(-1px);
+	}
+
+	&--main {
+		background: gradient('shine'), gradient(color('main'));
+		color: color('white');
 	}
 
 	&--light {
@@ -31,27 +35,8 @@
 	}
 
 	&--dark {
-		background: gradient('shine'), gradient(color('dark'));
+		background: gradient('shine'), gradient(color('black'));
 		color: color('white');
-	}
-
-	&--arrow {
-		padding-right: 3.2em;
-	}
-
-	&--arrow::after {
-		content: '→';
-		position: absolute;
-		top: calc(50% - .5em);
-		right: $padding;
-		margin: 0 0 0 1em;
-		font-size: 1.1em;
-		line-height: 1em;
-		transition: transform $duration $timing;
-	}
-
-	&--arrow:hover::after {
-		transform: translateX(20%);
 	}
 
 }

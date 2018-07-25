@@ -1,54 +1,27 @@
 .hero {
 
-	@keyframes hero__move {
-		0% {
-			transform: translateY(-4px);
-		}
-		50% {
-			transform: translateY(4px);
-		}
-		100% {
-			transform: translateY(-4px);
-		}
-	}
-
-	$flapWidth: 300px;
-	$flapHeight: 50px;
-
 	position: relative;
 	display: flex;
 	align-items: center;
 	min-height: 100vh;
-	padding-top: calc(#{ $sectionPadding } + #{ $headerHeight });
-	background: gradient('main');
+	background: gradient('subtle');
 
-	&__next {
+	&::before {
+		content: '';
 		position: absolute;
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		left: calc(50% - #{ $flapWidth/2 });
-		bottom: 0;
-		width: $flapWidth;
-		height: $flapHeight;
-	}
-
-	&__flap {
-		position: absolute;
-		width: 100%;
+		top: 0;
+		right: 0;
+		width: 65%;
 		height: 100%;
-		fill: color('background');
-	}
+		background: #eee;
+		background-image: radial-gradient(closest-side, rgba(255, 255, 255, .94), rgba(255, 255, 255, .94), rgba(255, 255, 255, 1)), url('../images/grid.svg');
+		background-repeat: no-repeat, repeat;
+		background-size: auto, 75px 44px;
+		mix-blend-mode: multiply;
 
-	&__arrow {
-		$size: 20px;
-
-		// Use position relative to appear above the flap
-		position: relative;
-		width: $size;
-		height: $size;
-		fill: color('main');
-		animation: hero__move 1.5s linear infinite;
+		@media (max-width: $gridMinWidth) {
+			width: 100%;
+		}
 	}
 
 }

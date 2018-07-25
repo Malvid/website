@@ -1,0 +1,1 @@
+Navigation with links. Only items with `mobile` `true` will be displayed on small screens.

@@ -1,11 +1,12 @@
 // Basics ------------------------------------------------------ //
 @import 'functions';
+@import 'placeholders';
 @import 'vars';
-@import 'mixins';
 
 // Modules ----------------------------------------------------- //
 @import '../../../node_modules/normalize.css/normalize';
 @import '../../../node_modules/basicgrid/src/styles/main';
+@import '../../../node_modules/basicslider/src/styles/main';
 
 // Styles ------------------------------------------------------ //
 @import 'html';
@@ -17,23 +18,27 @@
 @import 'f';
 @import 'hidden';
 @import 'button';
+@import 'sameHeight';
 @import 'row';
 @import 'align';
 @import 'section';
 @import 'hero';
-@import 'circle';
-@import 'square';
-@import 'shapes';
 @import 'header';
 @import 'logo';
 @import 'nav';
-@import 'browser';
+@import 'window';
 @import 'point';
 @import 'tooltip';
-@import 'icon';
-@import 'features';
-@import 'feature';
-@import 'links';
 @import 'link';
 @import 'href';
+@import 'feature';
+@import 'icon';
+@import 'quotes';
+@import 'author';
 @import 'footer';
+@import 'tab';
+@import 'step';
+@import 'usage';
+@import 'shape';
+@import 'shapes';
+@import 'cursor';

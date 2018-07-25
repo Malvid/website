@@ -1,4 +1,7 @@
 <div class="shapes">
-	<div class="square" data-depth=".5"></div>
-	<div class="circle" data-depth="1"></div>
+
+	{% for item in content %}
+		{% inject "assets/components/shape/shape.njk", item %}
+	{% endfor %}
+
 </div>

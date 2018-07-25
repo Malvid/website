@@ -1,0 +1,25 @@
+.step {
+
+	display: flex;
+	align-items: center;
+	margin-bottom: $gutter/2;
+
+	&__index {
+		$size: 38px;
+
+		flex-shrink: 0;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin-right: $gutter/1.5;
+		width: $size;
+		height: $size;
+		background: color('main');
+		border-radius: 100%;
+	}
+
+	&__text > p:last-child {
+		margin-bottom: 0;
+	}
+
+}

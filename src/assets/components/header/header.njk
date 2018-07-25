@@ -1,15 +1,18 @@
 <header class="header">
 
 	<div class="row middle-on-small">
-		<div class="column medium-4">
+		<div class="column small-6 medium-4">
 
 			{% inject "assets/components/logo/logo.njk", logo %}
 
 		</div>
-		<div class="column medium-8">
+		<div class="column small-6 medium-8">
 
-			<div class="align-right">
+			<div class="header__content">
+
 				{% inject "assets/components/nav/nav.njk", nav %}
+				{% inject "assets/components/icon/icon.njk", icon %}
+
 			</div>
 
 		</div>

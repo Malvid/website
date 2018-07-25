@@ -1,22 +1,20 @@
 .icon {
 
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	margin: 0 0 $gutter/2;
-	width: $iconSize;
-	height: $iconSize;
-	background: color('main');
-	color: color('white');
-	box-shadow: $shadowSmall;
-	border-radius: 100%;
+	padding-left: $gutter/2;
 
-	svg {
-		$size: 50%;
+	&__symbol {
+		$size: 32px;
 
+		display: block;
 		width: $size;
 		height: $size;
-		fill: currentColor;
+		// Dimm element to look more like the dark text
+		fill: rgba(0, 0, 0, .45);
+		transition: fill $duration $timing;
+	}
+
+	&:hover &__symbol {
+		fill: color('main');
 	}
 
 }

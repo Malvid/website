@@ -1,0 +1,1 @@
+Can display `figure` *or* `bodytext`. Displaying both isn't possible.

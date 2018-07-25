@@ -1,0 +1,8 @@
+<h2 class="h1 c-black">{{ header | safe }}</h2>
+
+{% if subheader %}
+	<p class="h3">{{ subheader }}</p>
+	<div class="spacing-huge"></div>
+{% else %}
+	<div class="spacing-giant"></div>
+{% endif %}
