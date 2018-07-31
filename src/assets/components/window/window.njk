@@ -15,7 +15,7 @@
 		{% if figure %}
 			<img class="window__image spacing-zero" src="{{ figure.src }}" width="{{ figure.width }}" height="{{ figure.height }}" alt="{{ figure.alternative }}">
 		{% elseif bodytext %}
-			<div class="window__text c-black f-notomono">
+			<div class="window__text color-black font-notomono">
 				{{ bodytext | safe }}
 			</div>
 		{% endif %}
