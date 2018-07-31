@@ -33,7 +33,7 @@ module.exports = {
 			icon: {
 				icon: 'github',
 				href: {
-					value: 'https://github.com/comwrap/Malvid'
+					value: 'https://github.com/Malvid/Malvid'
 				}
 			}
 		},
@@ -54,7 +54,7 @@ module.exports = {
 					color: 'dark',
 					label: 'Documentation',
 					href: {
-						value: 'https://github.com/comwrap/Malvid'
+						value: 'https://github.com/Malvid/Malvid'
 					}
 				}
 			],
@@ -347,7 +347,7 @@ module.exports = {
 				content: [
 					{
 						href: {
-							value: 'https://github.com/comwrap/Malvid/blob/master/docs/Get%20started.md'
+							value: 'https://github.com/Malvid/Malvid/blob/master/docs/Get%20started.md'
 						},
 						icon: 'play',
 						header: 'Get started',
@@ -355,7 +355,7 @@ module.exports = {
 					},
 					{
 						href: {
-							value: 'https://github.com/comwrap/Malvid'
+							value: 'https://github.com/Malvid/Malvid'
 						},
 						icon: 'document-text',
 						header: 'Documentation',
