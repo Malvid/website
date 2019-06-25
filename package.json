@@ -14,7 +14,7 @@
   "scripts": {
     "start": "rosid serve src/ -o -s '/ui/index.html'",
     "compile": "rosid compile src/ dist/ -i '**/_*' -i '**/*.{data,config}.{js,json}'",
-    "preview": "npm run compile && rsync --recursive --delete --checksum --whole-file --verbose --progress --human-readable dist/ frontend@preview.comwrap.rocks:/var/www/preview/malvid/"
+    "preview": "npm run compile && rsync --recursive --delete --checksum --whole-file --verbose --progress --human-readable dist/ comwrap-deployment@preview.comwrap.rocks:/srv/www/preview.comwrap.rocks/htdocs/malvid/"
   },
   "dependencies": {
     "basicgrid": "^3.1.2",
