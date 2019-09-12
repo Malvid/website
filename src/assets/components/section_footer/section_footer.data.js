@@ -14,5 +14,5 @@ module.exports = {
 			}
 		}
 	],
-	copyright: '©2017 Lorem'
+	copyright: '©2019 Lorem'
 }

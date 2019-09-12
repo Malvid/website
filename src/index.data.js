@@ -174,7 +174,7 @@ module.exports = {
 					{
 						x: 20,
 						y: 110,
-						delay: .4,
+						delay: 0.4,
 						tooltip: {
 							position: 'right',
 							bodytext: 'All your components in one place. Ordered and grouped.'
@@ -183,7 +183,7 @@ module.exports = {
 					{
 						x: 290,
 						y: 420,
-						delay: .8,
+						delay: 0.8,
 						tooltip: {
 							position: 'left',
 							bodytext: 'Your selected component at a glance: Template, data and notes.'
@@ -388,7 +388,7 @@ module.exports = {
 					}
 				}
 			],
-			copyright: '©2018 comwrap GmbH'
+			copyright: '©2019 comwrap GmbH'
 		}
 	}
 }
