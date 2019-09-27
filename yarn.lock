@@ -1582,7 +1582,7 @@ combined-stream@^1.0.6, combined-stream@~1.0.6:
   dependencies:
     delayed-stream "~1.0.0"
 
-commander@^2.19.0, commander@^2.2.0:
+commander@^2.2.0, commander@^2.20.0:
   version "2.20.0"
   resolved "https://registry.yarnpkg.com/commander/-/commander-2.20.0.tgz#d58bb2b5c1ee8f87b0d340027e9e94e222c5a422"
   integrity sha512-7j2y+40w61zy6YC2iRNpUe/NwhNyoXrYpHMrSunaMG64nRnaf96zO/KMQR4OyN/UnE5KLyEBnKHd4aG3rskjpQ==
@@ -2443,7 +2443,7 @@ find-up@^3.0.0:
   dependencies:
     locate-path "^3.0.0"
 
-find-up@^4.1.0:
+find-up@^4.0.0, find-up@^4.1.0:
   version "4.1.0"
   resolved "https://registry.yarnpkg.com/find-up/-/find-up-4.1.0.tgz#97afe7d6cdc0bc5928584b7c8d7b16e8a9aa5d19"
   integrity sha512-PpOwAdQ/YlXQ2vj8a3h8IipDuYRi3wceVQQGYWxNINccq40Anw7BlsEXCMbt1Zt+OLA6Fq9suIpIWD0OsnISlw==
@@ -3918,7 +3918,7 @@ number-is-nan@^1.0.0:
   resolved "https://registry.yarnpkg.com/number-is-nan/-/number-is-nan-1.0.1.tgz#097b602b53422a522c1afb8790318336941a011d"
   integrity sha1-CXtgK1NCKlIsGvuHkDGDNpQaAR0=
 
-nunjucks@^3.1.4:
+nunjucks@^3.2.0:
   version "3.2.0"
   resolved "https://registry.yarnpkg.com/nunjucks/-/nunjucks-3.2.0.tgz#53e95f43c9555e822e8950008a201b1002d49933"
   integrity sha512-YS/qEQ6N7qCnUdm6EoYRBfJUdWNT0PpKbbRnogV2XyXbBm2STIP1O6yrdZHgwMVK7fIYUx7i8+yatEixnXSB1w==
@@ -4937,10 +4937,10 @@ ripemd160@^2.0.0, ripemd160@^2.0.1:
     hash-base "^3.0.0"
     inherits "^2.0.1"
 
-rosid-handler-js@^12.1.0:
-  version "12.1.0"
-  resolved "https://registry.yarnpkg.com/rosid-handler-js/-/rosid-handler-js-12.1.0.tgz#5e2629a31f58e6a375a51a5c4d2e8b9a86e4dd5b"
-  integrity sha512-VX29Cydhkv8c5QABJbgE+PCedVuFY6CFgBCxFQ0suLF8PS0juGdYZvnHe+EUnjrpZla5ZBtoTk0aofAetNRCCQ==
+rosid-handler-js@^12.2.0:
+  version "12.2.0"
+  resolved "https://registry.yarnpkg.com/rosid-handler-js/-/rosid-handler-js-12.2.0.tgz#61849bf51f6bf4c9632cfa6ddf12f29f45e0aa02"
+  integrity sha512-7Ru2O6gCsExMfSeXA9kAyOKK++r66a5c6SOSA31u2BVkCkt0UrUhBFW0ODgRdq6Oa2dGCAbhr4tbCjq2OpLdzg==
   dependencies:
     "@babel/core" "^7.3.3"
     "@babel/preset-env" "^7.3.1"
@@ -4949,7 +4949,7 @@ rosid-handler-js@^12.1.0:
     browserify "^16.2.3"
     fsify "^3.0.0"
     loose-envify "^1.4.0"
-    terser "^3.16.1"
+    terser "^4.0.0"
     uuid "^3.2.1"
 
 rosid-handler-malvid@^3.0.7:
@@ -4959,14 +4959,14 @@ rosid-handler-malvid@^3.0.7:
   dependencies:
     malvid "^5.7.0"
 
-rosid-handler-njk@^7.2.0:
-  version "7.2.0"
-  resolved "https://registry.yarnpkg.com/rosid-handler-njk/-/rosid-handler-njk-7.2.0.tgz#6976ffee92f1ef7b2ef5fbdbae20246b9eec33c1"
-  integrity sha512-MoZNs3Wtaxv28GpCvlfDS185WO/pTtaRaM2OutzSnK/9LmtGoIBeEo9LQT4u7qA79rf/Rd0lN7/tzGGBl1BPrg==
+rosid-handler-njk@^7.3.0:
+  version "7.3.0"
+  resolved "https://registry.yarnpkg.com/rosid-handler-njk/-/rosid-handler-njk-7.3.0.tgz#7416167a26b472cb34120277bdc6b5612cbb4280"
+  integrity sha512-0vtBIrLZEov143+HoISF2qycPSZR/qmr8IM4QxuEonHNOVsi6zJddHfSuqgNwPIHmdLGBk38bbnqsBDr4+81DA==
   dependencies:
     continuous-stealthy-require "^1.0.0"
-    find-up "^3.0.0"
-    nunjucks "^3.1.4"
+    find-up "^4.0.0"
+    nunjucks "^3.2.0"
     require-data "^1.0.0"
 
 rosid-handler-sass@^6.0.4:
@@ -5312,10 +5312,10 @@ source-map-resolve@^0.5.0:
     source-map-url "^0.4.0"
     urix "^0.1.0"
 
-source-map-support@~0.5.10:
-  version "0.5.12"
-  resolved "https://registry.yarnpkg.com/source-map-support/-/source-map-support-0.5.12.tgz#b4f3b10d51857a5af0138d3ce8003b201613d599"
-  integrity sha512-4h2Pbvyy15EE02G+JOZpUCmqWJuqrs+sEkzewTm++BPi7Hvn/HwcqLAcNxYAyI0x13CpPPn+kMjl+hplXMHITQ==
+source-map-support@~0.5.12:
+  version "0.5.13"
+  resolved "https://registry.yarnpkg.com/source-map-support/-/source-map-support-0.5.13.tgz#31b24a9c2e73c2de85066c0feb7d44767ed52932"
+  integrity sha512-SHSKFHadjVA5oR4PPqhtAVdcBWwRYVd6g6cAXnIbRiIwc2EhPrTuKUBdSLvlEKyIP3GCf89fltvcZiP9MMFA1w==
   dependencies:
     buffer-from "^1.0.0"
     source-map "^0.6.0"
@@ -5643,14 +5643,14 @@ tar@^4:
     safe-buffer "^5.1.2"
     yallist "^3.0.2"
 
-terser@^3.16.1:
-  version "3.17.0"
-  resolved "https://registry.yarnpkg.com/terser/-/terser-3.17.0.tgz#f88ffbeda0deb5637f9d24b0da66f4e15ab10cb2"
-  integrity sha512-/FQzzPJmCpjAH9Xvk2paiWrFq+5M6aVOf+2KRbwhByISDX/EujxsK+BAvrhb6H+2rtrLCHK9N01wO014vrIwVQ==
+terser@^4.0.0:
+  version "4.3.1"
+  resolved "https://registry.yarnpkg.com/terser/-/terser-4.3.1.tgz#09820bcb3398299c4b48d9a86aefc65127d0ed65"
+  integrity sha512-pnzH6dnFEsR2aa2SJaKb1uSCl3QmIsJ8dEkj0Fky+2AwMMcC9doMqLOQIH6wVTEKaVfKVvLSk5qxPBEZT9mywg==
   dependencies:
-    commander "^2.19.0"
+    commander "^2.20.0"
     source-map "~0.6.1"
-    source-map-support "~0.5.10"
+    source-map-support "~0.5.12"
 
 tfunk@^3.0.1, tfunk@^3.1.0:
   version "3.1.0"
