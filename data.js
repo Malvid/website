@@ -1,6 +1,6 @@
 module.exports = {
 	lang: 'en',
-	url: '',
+	url: 'http://malvid.io',
 	site: 'Malvid',
 	title: '',
 	description: 'UI to help you build and document web components.',
