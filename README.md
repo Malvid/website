@@ -1,6 +1,6 @@
 # Website
 
-The website of [Malvid](https://malvid.io) has been developed using Malvid itself. The project structure is based on a HTML5 Boilerplate called [Skeleton-Components](https://github.com/electerious/Skeleton-Components).
+The website of [Malvid](https://malvid.electerious.com) has been developed using Malvid itself. The project structure is based on a HTML5 Boilerplate called [Skeleton-Components](https://github.com/electerious/Skeleton-Components).
 
 ## Contents
 
