@@ -1,4 +1,4 @@
-import * as basicSlider from 'basicSlider'
+import * as basicSlider from 'basicslider'
 
 const init = (elem) => {
 
