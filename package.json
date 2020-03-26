@@ -17,13 +17,13 @@
     "preview": "npm run compile && rsync --recursive --delete --checksum --whole-file --verbose --progress --human-readable dist/ comwrap-deployment@preview.comwrap.rocks:/srv/www/preview.comwrap.rocks/htdocs/malvid/"
   },
   "dependencies": {
-    "basicgrid": "^3.1.2",
-    "basicslider": "^1.1.3",
+    "basicgrid": "^3.1.3",
+    "basicslider": "^1.1.4",
     "normalize.css": "^8.0.0",
-    "rosid": "^10.0.0",
-    "rosid-handler-js": "^12.2.0",
-    "rosid-handler-malvid": "^3.0.7",
-    "rosid-handler-njk": "^7.3.0",
-    "rosid-handler-sass": "^6.0.4"
+    "rosid": "^11.0.0",
+    "rosid-handler-js": "^13.0.0",
+    "rosid-handler-malvid": "^4.0.0",
+    "rosid-handler-njk": "^8.0.0",
+    "rosid-handler-sass": "^7.0.0"
   }
 }
