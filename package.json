@@ -1,16 +1,5 @@
 {
-  "name": "skeleton-components",
-  "version": "1.0.0",
-  "description": "A front-end template build upon Rosid",
   "private": true,
-  "authors": [
-    "Tobias Reich <tobias@electerious.com>"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/electerious/Skeleton-Components.git"
-  },
-  "license": "MIT",
   "scripts": {
     "start": "rosid serve src/ -o -s '/ui/index.html'",
     "compile": "rosid compile src/ dist/ -i '**/_*' -i '**/*.{data,config}.{js,json}'"
