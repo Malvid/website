@@ -17,10 +17,11 @@ The website of [Malvid](https://malvid.electerious.com) has been developed using
 
 The website dependents on …
 
-- [Node.js](https://nodejs.org/en/) (v8.5.0 or newer)
+- [Node.js] (https://nodejs.org/en/) (v8.5.0 or newer)
 - [yarn](https://yarnpkg.com/en/)
 
 Make sure to install and update all dependencies before you fork and setup the website.
+and plz hit star option for if you like
 
 ## Setup
 
