@@ -1,4 +1,4 @@
-# Website
+# Malvid Website
 
 The website of [Malvid](https://malvid.electerious.com) has been developed using Malvid itself. The project structure is based on a HTML5 Boilerplate called [Skeleton-Components](https://github.com/electerious/Skeleton-Components).
 
@@ -34,7 +34,7 @@ yarn install
 
 ### Develop
 
-Start developing using the following command. You browser will open, wait for code-changes and live-reload instantly when you update your files. JS, SASS and Nunjucks will be compiled on-the-fly.
+Start developing using the following commands. You browser will open, wait for code-changes and live-reload instantly when you update your files. JS, SASS and Nunjucks will be compiled on-the-fly.
 
 ```sh
 yarn start
@@ -54,7 +54,7 @@ This project includes [Malvid](https://github.com/Malvid/Malvid) to help you bui
 
 ## Docker
 
-The included Dockerfile lets you build an image which compiles your site. In this case only Docker needs to be installed on the system. No other dependencies are required.
+The included Dockerfile lets you build an image which compiles your site. In this case only Docker needs to be installed on the system. No other reliances are required.
 
 ### Build
 
